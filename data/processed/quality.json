@@ -1,0 +1,28 @@
+{
+  "population_rows": 77,
+  "community_features": 77,
+  "park_features": 617,
+  "joined_communities": 77,
+  "population_total": 2647621.0,
+  "population_year": 2023,
+  "park_inventory_date": "2016-11-04",
+  "projected_crs": "EPSG:26916",
+  "invalid_geometries_repaired": {
+    "communities": 0,
+    "parks": 11
+  },
+  "park_raw_sum_m2": 36121722.643444136,
+  "park_union_m2": 36121218.011029236,
+  "park_overlapping_area_removed_m2": 504.63241489976645,
+  "park_clipped_union_m2": 34155091.26577181,
+  "park_outside_communities_m2": 1966126.7452574223,
+  "park_sum_across_communities_m2": 34155091.26577184,
+  "community_sum_m2": 597698424.836061,
+  "community_union_m2": 597698424.8360643,
+  "community_overlap_m2": 0.0,
+  "park_assignment_overlap_m2": 2.9802322387695312e-08,
+  "intersection_fragments_under_1m2": 15,
+  "fragment_area_under_1m2": 2.1242223094615684,
+  "sliver_policy": "All polygon area retained; fragments below 1 square metre reported only.",
+  "interpretation": "Park property area, including nonvegetated surfaces, allocated within community boundaries; ACS 2023 estimates paired with a November 2016 park inventory."
+}

@@ -1,0 +1,2521 @@
+{
+  "id" : "t68z-cikk",
+  "name" : "ACS 5 Year Data by Community Area",
+  "assetType" : "dataset",
+  "attribution" : "City of Chicago",
+  "attributionLink" : "https://www.chicago.gov",
+  "averageRating" : 0,
+  "category" : "Community & Economic Development",
+  "createdAt" : 1736179014,
+  "description" : "Selected variables from the most recent ACS Community Survey (Released 2023) aggregated by Community Area.  Additional years will be added as they become available.\n\nThe underlying algorithm to create the dataset calculates the % of a census tract that falls within the boundaries of a given community area. Given that census tracts and community area boundaries are not aligned, these figures should be considered an estimate. \n\nTotal population in this dataset: 2,647,621\nTotal Chicago Population Per ACS 2023: 2,664,452\n% Difference: -0.632%\n\nThere are different approaches in common use for displaying Hispanic or Latino population counts. In this dataset, following the approach taken by the Census Bureau, a person who identifies as Hispanic or Latino will also be counted in the race category with which they identify. However, again following the Census Bureau data, there is also a column for White Not Hispanic or Latino.\n\nCode can be found here: https://github.com/Chicago/5-Year-ACS-Survey-Data\n\nCommunity Area Shapefile:\n\nhttps://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6\n\nCensus Area Python Package Documentation:\n\nhttps://census-area.readthedocs.io/en/latest/index.html",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 23506,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "SEE_TERMS_OF_USE",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41120245,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1738865666,
+  "publicationGroup" : 19728794,
+  "publicationStage" : "published",
+  "rowIdentifierColumnId" : 605324840,
+  "rowsUpdatedAt" : 1737648600,
+  "tableId" : 19777646,
+  "totalTimesRated" : 0,
+  "viewCount" : 18998,
+  "viewLastModified" : 1738865666,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1738886029,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 6739689,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1738886014,
+    "targetAudience" : "public",
+    "workflowId" : 2226,
+    "reviewer" : {
+      "id" : "vewm-vupz",
+      "displayName" : "Jonathan Levy"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1738886029,
+      "failureCount" : 0,
+      "startedAt" : 1738886029,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "vewm-vupz",
+      "displayName" : "Jonathan Levy"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 605324810,
+    "name" : "ACS Year",
+    "dataTypeName" : "number",
+    "description" : "The version of the ACS represented by the record.",
+    "fieldName" : "acs_year",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156437170,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "2023",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2023",
+        "count" : "77"
+      } ],
+      "smallest" : "2023",
+      "count" : "77",
+      "cardinality" : "1"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 605324811,
+    "name" : "Community Area",
+    "dataTypeName" : "text",
+    "description" : "Name of Community Area",
+    "fieldName" : "community_area",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 156191756,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "WOODLAWN",
+      "null" : "0",
+      "top" : [ {
+        "item" : "NEW CITY",
+        "count" : "1"
+      }, {
+        "item" : "ROGERS PARK",
+        "count" : "1"
+      }, {
+        "item" : "AVONDALE",
+        "count" : "1"
+      }, {
+        "item" : "JEFFERSON PARK",
+        "count" : "1"
+      }, {
+        "item" : "IRVING PARK",
+        "count" : "1"
+      }, {
+        "item" : "BEVERLY",
+        "count" : "1"
+      }, {
+        "item" : "DUNNING",
+        "count" : "1"
+      }, {
+        "item" : "HYDE PARK",
+        "count" : "1"
+      }, {
+        "item" : "WOODLAWN",
+        "count" : "1"
+      }, {
+        "item" : "FULLER PARK",
+        "count" : "1"
+      }, {
+        "item" : "GREATER GRAND CROSSING",
+        "count" : "1"
+      }, {
+        "item" : "UPTOWN",
+        "count" : "1"
+      }, {
+        "item" : "AUSTIN",
+        "count" : "1"
+      }, {
+        "item" : "OHARE",
+        "count" : "1"
+      }, {
+        "item" : "SOUTH LAWNDALE",
+        "count" : "1"
+      }, {
+        "item" : "SOUTH CHICAGO",
+        "count" : "1"
+      }, {
+        "item" : "LOWER WEST SIDE",
+        "count" : "1"
+      }, {
+        "item" : "WEST TOWN",
+        "count" : "1"
+      }, {
+        "item" : "WEST ELSDON",
+        "count" : "1"
+      }, {
+        "item" : "EDGEWATER",
+        "count" : "1"
+      } ],
+      "smallest" : "ALBANY PARK",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : { }
+  }, {
+    "id" : 605324812,
+    "name" : "Under $25,000",
+    "dataTypeName" : "number",
+    "description" : "Total # of Families w/ income under $25,000",
+    "fieldName" : "under_25_000",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191729,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "5506.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "689.0",
+        "count" : "2"
+      }, {
+        "item" : "1269.0",
+        "count" : "1"
+      }, {
+        "item" : "1535.0",
+        "count" : "1"
+      }, {
+        "item" : "355.0",
+        "count" : "1"
+      }, {
+        "item" : "2299.0",
+        "count" : "1"
+      }, {
+        "item" : "965.0",
+        "count" : "1"
+      }, {
+        "item" : "576.0",
+        "count" : "1"
+      }, {
+        "item" : "1038.0",
+        "count" : "1"
+      }, {
+        "item" : "761.0",
+        "count" : "1"
+      }, {
+        "item" : "1380.0",
+        "count" : "1"
+      }, {
+        "item" : "1123.0",
+        "count" : "1"
+      }, {
+        "item" : "223.0",
+        "count" : "1"
+      }, {
+        "item" : "391.0",
+        "count" : "1"
+      }, {
+        "item" : "1028.0",
+        "count" : "1"
+      }, {
+        "item" : "1379.0",
+        "count" : "1"
+      }, {
+        "item" : "564.0",
+        "count" : "1"
+      }, {
+        "item" : "1532.0",
+        "count" : "1"
+      }, {
+        "item" : "701.0",
+        "count" : "1"
+      }, {
+        "item" : "900.0",
+        "count" : "1"
+      }, {
+        "item" : "1853.0",
+        "count" : "1"
+      } ],
+      "smallest" : "31.0",
+      "count" : "77",
+      "cardinality" : "76"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324813,
+    "name" : "$25,000 to $49,999",
+    "dataTypeName" : "number",
+    "description" : "Total # of Families w/ income between $25,000 and $49,999",
+    "fieldName" : "_25_000_to_49_999",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191730,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "5084.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "308.0",
+        "count" : "2"
+      }, {
+        "item" : "1114.0",
+        "count" : "2"
+      }, {
+        "item" : "2142.0",
+        "count" : "1"
+      }, {
+        "item" : "717.0",
+        "count" : "1"
+      }, {
+        "item" : "1986.0",
+        "count" : "1"
+      }, {
+        "item" : "1882.0",
+        "count" : "1"
+      }, {
+        "item" : "1764.0",
+        "count" : "1"
+      }, {
+        "item" : "661.0",
+        "count" : "1"
+      }, {
+        "item" : "905.0",
+        "count" : "1"
+      }, {
+        "item" : "2483.0",
+        "count" : "1"
+      }, {
+        "item" : "1521.0",
+        "count" : "1"
+      }, {
+        "item" : "296.0",
+        "count" : "1"
+      }, {
+        "item" : "1223.0",
+        "count" : "1"
+      }, {
+        "item" : "2038.0",
+        "count" : "1"
+      }, {
+        "item" : "798.0",
+        "count" : "1"
+      }, {
+        "item" : "183.0",
+        "count" : "1"
+      }, {
+        "item" : "1273.0",
+        "count" : "1"
+      }, {
+        "item" : "1022.0",
+        "count" : "1"
+      }, {
+        "item" : "761.0",
+        "count" : "1"
+      }, {
+        "item" : "464.0",
+        "count" : "1"
+      } ],
+      "smallest" : "104.0",
+      "count" : "77",
+      "cardinality" : "75"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324814,
+    "name" : "$50,000 to $74,999",
+    "dataTypeName" : "number",
+    "description" : "Total # of Families w/ income between $50,000 and $74,999",
+    "fieldName" : "_50_000_to_74_999",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191731,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "3600.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3031.0",
+        "count" : "2"
+      }, {
+        "item" : "814.0",
+        "count" : "2"
+      }, {
+        "item" : "462.0",
+        "count" : "2"
+      }, {
+        "item" : "655.0",
+        "count" : "1"
+      }, {
+        "item" : "355.0",
+        "count" : "1"
+      }, {
+        "item" : "622.0",
+        "count" : "1"
+      }, {
+        "item" : "1052.0",
+        "count" : "1"
+      }, {
+        "item" : "73.0",
+        "count" : "1"
+      }, {
+        "item" : "464.0",
+        "count" : "1"
+      }, {
+        "item" : "1801.0",
+        "count" : "1"
+      }, {
+        "item" : "1106.0",
+        "count" : "1"
+      }, {
+        "item" : "1379.0",
+        "count" : "1"
+      }, {
+        "item" : "517.0",
+        "count" : "1"
+      }, {
+        "item" : "305.0",
+        "count" : "1"
+      }, {
+        "item" : "1002.0",
+        "count" : "1"
+      }, {
+        "item" : "1592.0",
+        "count" : "1"
+      }, {
+        "item" : "1214.0",
+        "count" : "1"
+      }, {
+        "item" : "2307.0",
+        "count" : "1"
+      }, {
+        "item" : "1926.0",
+        "count" : "1"
+      }, {
+        "item" : "699.0",
+        "count" : "1"
+      } ],
+      "smallest" : "36.0",
+      "count" : "77",
+      "cardinality" : "74"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324815,
+    "name" : "$75,000 to $125,000",
+    "dataTypeName" : "number",
+    "description" : "Total # of Families w/ income between $75,000 and $125,000",
+    "fieldName" : "_75_000_to_125_000",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191732,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "4588.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "917.0",
+        "count" : "2"
+      }, {
+        "item" : "1019.0",
+        "count" : "1"
+      }, {
+        "item" : "1406.0",
+        "count" : "1"
+      }, {
+        "item" : "432.0",
+        "count" : "1"
+      }, {
+        "item" : "1122.0",
+        "count" : "1"
+      }, {
+        "item" : "1074.0",
+        "count" : "1"
+      }, {
+        "item" : "1273.0",
+        "count" : "1"
+      }, {
+        "item" : "4182.0",
+        "count" : "1"
+      }, {
+        "item" : "1180.0",
+        "count" : "1"
+      }, {
+        "item" : "1291.0",
+        "count" : "1"
+      }, {
+        "item" : "1726.0",
+        "count" : "1"
+      }, {
+        "item" : "953.0",
+        "count" : "1"
+      }, {
+        "item" : "1105.0",
+        "count" : "1"
+      }, {
+        "item" : "1270.0",
+        "count" : "1"
+      }, {
+        "item" : "767.0",
+        "count" : "1"
+      }, {
+        "item" : "2202.0",
+        "count" : "1"
+      }, {
+        "item" : "2417.0",
+        "count" : "1"
+      }, {
+        "item" : "827.0",
+        "count" : "1"
+      }, {
+        "item" : "2162.0",
+        "count" : "1"
+      }, {
+        "item" : "1450.0",
+        "count" : "1"
+      } ],
+      "smallest" : "61.0",
+      "count" : "77",
+      "cardinality" : "76"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324816,
+    "name" : "$125,000 +",
+    "dataTypeName" : "number",
+    "description" : "Total # of Families w/ income over $125,000 +",
+    "fieldName" : "_125_000",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191733,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "12236.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "903.0",
+        "count" : "1"
+      }, {
+        "item" : "3299.0",
+        "count" : "1"
+      }, {
+        "item" : "1390.0",
+        "count" : "1"
+      }, {
+        "item" : "3439.0",
+        "count" : "1"
+      }, {
+        "item" : "2078.0",
+        "count" : "1"
+      }, {
+        "item" : "5814.0",
+        "count" : "1"
+      }, {
+        "item" : "988.0",
+        "count" : "1"
+      }, {
+        "item" : "4246.0",
+        "count" : "1"
+      }, {
+        "item" : "1356.0",
+        "count" : "1"
+      }, {
+        "item" : "5327.0",
+        "count" : "1"
+      }, {
+        "item" : "5232.0",
+        "count" : "1"
+      }, {
+        "item" : "34.0",
+        "count" : "1"
+      }, {
+        "item" : "2785.0",
+        "count" : "1"
+      }, {
+        "item" : "1887.0",
+        "count" : "1"
+      }, {
+        "item" : "10739.0",
+        "count" : "1"
+      }, {
+        "item" : "564.0",
+        "count" : "1"
+      }, {
+        "item" : "4410.0",
+        "count" : "1"
+      }, {
+        "item" : "3751.0",
+        "count" : "1"
+      }, {
+        "item" : "1440.0",
+        "count" : "1"
+      }, {
+        "item" : "1901.0",
+        "count" : "1"
+      } ],
+      "smallest" : "34.0",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324817,
+    "name" : "Male 0 to 17",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Males 0 to 17",
+    "fieldName" : "male_0_to_17",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191734,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "12399.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2835.0",
+        "count" : "2"
+      }, {
+        "item" : "7097.0",
+        "count" : "1"
+      }, {
+        "item" : "3149.0",
+        "count" : "1"
+      }, {
+        "item" : "3377.0",
+        "count" : "1"
+      }, {
+        "item" : "3841.0",
+        "count" : "1"
+      }, {
+        "item" : "4003.0",
+        "count" : "1"
+      }, {
+        "item" : "1502.0",
+        "count" : "1"
+      }, {
+        "item" : "3356.0",
+        "count" : "1"
+      }, {
+        "item" : "1099.0",
+        "count" : "1"
+      }, {
+        "item" : "1599.0",
+        "count" : "1"
+      }, {
+        "item" : "2749.0",
+        "count" : "1"
+      }, {
+        "item" : "3350.0",
+        "count" : "1"
+      }, {
+        "item" : "3048.0",
+        "count" : "1"
+      }, {
+        "item" : "2449.0",
+        "count" : "1"
+      }, {
+        "item" : "1752.0",
+        "count" : "1"
+      }, {
+        "item" : "4673.0",
+        "count" : "1"
+      }, {
+        "item" : "7620.0",
+        "count" : "1"
+      }, {
+        "item" : "3160.0",
+        "count" : "1"
+      }, {
+        "item" : "772.0",
+        "count" : "1"
+      }, {
+        "item" : "1145.0",
+        "count" : "1"
+      } ],
+      "smallest" : "225.0",
+      "count" : "77",
+      "cardinality" : "76"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324818,
+    "name" : "Male 18 to 24",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Males 18 to 24",
+    "fieldName" : "male_18_to_24",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191735,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "5510.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "221.0",
+        "count" : "2"
+      }, {
+        "item" : "1654.0",
+        "count" : "2"
+      }, {
+        "item" : "504.0",
+        "count" : "2"
+      }, {
+        "item" : "2089.0",
+        "count" : "1"
+      }, {
+        "item" : "1642.0",
+        "count" : "1"
+      }, {
+        "item" : "1192.0",
+        "count" : "1"
+      }, {
+        "item" : "82.0",
+        "count" : "1"
+      }, {
+        "item" : "2431.0",
+        "count" : "1"
+      }, {
+        "item" : "149.0",
+        "count" : "1"
+      }, {
+        "item" : "3962.0",
+        "count" : "1"
+      }, {
+        "item" : "1522.0",
+        "count" : "1"
+      }, {
+        "item" : "732.0",
+        "count" : "1"
+      }, {
+        "item" : "1108.0",
+        "count" : "1"
+      }, {
+        "item" : "2592.0",
+        "count" : "1"
+      }, {
+        "item" : "807.0",
+        "count" : "1"
+      }, {
+        "item" : "2207.0",
+        "count" : "1"
+      }, {
+        "item" : "1376.0",
+        "count" : "1"
+      }, {
+        "item" : "480.0",
+        "count" : "1"
+      }, {
+        "item" : "4374.0",
+        "count" : "1"
+      }, {
+        "item" : "1258.0",
+        "count" : "1"
+      } ],
+      "smallest" : "82.0",
+      "count" : "77",
+      "cardinality" : "74"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324819,
+    "name" : "Male 25 to 34",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Males 25 to 34",
+    "fieldName" : "male_25_to_34",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191736,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "16967.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2272.0",
+        "count" : "1"
+      }, {
+        "item" : "1972.0",
+        "count" : "1"
+      }, {
+        "item" : "185.0",
+        "count" : "1"
+      }, {
+        "item" : "1738.0",
+        "count" : "1"
+      }, {
+        "item" : "1809.0",
+        "count" : "1"
+      }, {
+        "item" : "1888.0",
+        "count" : "1"
+      }, {
+        "item" : "1525.0",
+        "count" : "1"
+      }, {
+        "item" : "1223.0",
+        "count" : "1"
+      }, {
+        "item" : "3630.0",
+        "count" : "1"
+      }, {
+        "item" : "1243.0",
+        "count" : "1"
+      }, {
+        "item" : "2476.0",
+        "count" : "1"
+      }, {
+        "item" : "516.0",
+        "count" : "1"
+      }, {
+        "item" : "1052.0",
+        "count" : "1"
+      }, {
+        "item" : "4083.0",
+        "count" : "1"
+      }, {
+        "item" : "4513.0",
+        "count" : "1"
+      }, {
+        "item" : "5429.0",
+        "count" : "1"
+      }, {
+        "item" : "2105.0",
+        "count" : "1"
+      }, {
+        "item" : "7741.0",
+        "count" : "1"
+      }, {
+        "item" : "4545.0",
+        "count" : "1"
+      }, {
+        "item" : "4392.0",
+        "count" : "1"
+      } ],
+      "smallest" : "20.0",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324820,
+    "name" : "Male 35 to 49",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Males 35 to 49",
+    "fieldName" : "male_35_to_49",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191737,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "11131.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1535.0",
+        "count" : "1"
+      }, {
+        "item" : "5546.0",
+        "count" : "1"
+      }, {
+        "item" : "2605.0",
+        "count" : "1"
+      }, {
+        "item" : "1506.0",
+        "count" : "1"
+      }, {
+        "item" : "3517.0",
+        "count" : "1"
+      }, {
+        "item" : "1861.0",
+        "count" : "1"
+      }, {
+        "item" : "1599.0",
+        "count" : "1"
+      }, {
+        "item" : "9710.0",
+        "count" : "1"
+      }, {
+        "item" : "700.0",
+        "count" : "1"
+      }, {
+        "item" : "1931.0",
+        "count" : "1"
+      }, {
+        "item" : "3930.0",
+        "count" : "1"
+      }, {
+        "item" : "5442.0",
+        "count" : "1"
+      }, {
+        "item" : "2415.0",
+        "count" : "1"
+      }, {
+        "item" : "3566.0",
+        "count" : "1"
+      }, {
+        "item" : "2280.0",
+        "count" : "1"
+      }, {
+        "item" : "9136.0",
+        "count" : "1"
+      }, {
+        "item" : "1841.0",
+        "count" : "1"
+      }, {
+        "item" : "2518.0",
+        "count" : "1"
+      }, {
+        "item" : "1857.0",
+        "count" : "1"
+      }, {
+        "item" : "1005.0",
+        "count" : "1"
+      } ],
+      "smallest" : "87.0",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324821,
+    "name" : "Male 50 to 64",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Males 50 to 64",
+    "fieldName" : "male_50_to_64",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191738,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "8110.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3231.0",
+        "count" : "1"
+      }, {
+        "item" : "5155.0",
+        "count" : "1"
+      }, {
+        "item" : "1417.0",
+        "count" : "1"
+      }, {
+        "item" : "2543.0",
+        "count" : "1"
+      }, {
+        "item" : "503.0",
+        "count" : "1"
+      }, {
+        "item" : "4563.0",
+        "count" : "1"
+      }, {
+        "item" : "5135.0",
+        "count" : "1"
+      }, {
+        "item" : "3182.0",
+        "count" : "1"
+      }, {
+        "item" : "2627.0",
+        "count" : "1"
+      }, {
+        "item" : "2299.0",
+        "count" : "1"
+      }, {
+        "item" : "2476.0",
+        "count" : "1"
+      }, {
+        "item" : "7120.0",
+        "count" : "1"
+      }, {
+        "item" : "2232.0",
+        "count" : "1"
+      }, {
+        "item" : "1993.0",
+        "count" : "1"
+      }, {
+        "item" : "8110.0",
+        "count" : "1"
+      }, {
+        "item" : "3698.0",
+        "count" : "1"
+      }, {
+        "item" : "1437.0",
+        "count" : "1"
+      }, {
+        "item" : "2785.0",
+        "count" : "1"
+      }, {
+        "item" : "7729.0",
+        "count" : "1"
+      }, {
+        "item" : "1057.0",
+        "count" : "1"
+      } ],
+      "smallest" : "134.0",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324822,
+    "name" : "Male 65+",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Males 65+",
+    "fieldName" : "male_65",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191739,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "6401.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1347.0",
+        "count" : "1"
+      }, {
+        "item" : "465.0",
+        "count" : "1"
+      }, {
+        "item" : "1025.0",
+        "count" : "1"
+      }, {
+        "item" : "1019.0",
+        "count" : "1"
+      }, {
+        "item" : "6401.0",
+        "count" : "1"
+      }, {
+        "item" : "1245.0",
+        "count" : "1"
+      }, {
+        "item" : "2831.0",
+        "count" : "1"
+      }, {
+        "item" : "2007.0",
+        "count" : "1"
+      }, {
+        "item" : "1238.0",
+        "count" : "1"
+      }, {
+        "item" : "1701.0",
+        "count" : "1"
+      }, {
+        "item" : "2471.0",
+        "count" : "1"
+      }, {
+        "item" : "1034.0",
+        "count" : "1"
+      }, {
+        "item" : "1272.0",
+        "count" : "1"
+      }, {
+        "item" : "2005.0",
+        "count" : "1"
+      }, {
+        "item" : "142.0",
+        "count" : "1"
+      }, {
+        "item" : "1351.0",
+        "count" : "1"
+      }, {
+        "item" : "1419.0",
+        "count" : "1"
+      }, {
+        "item" : "137.0",
+        "count" : "1"
+      }, {
+        "item" : "2022.0",
+        "count" : "1"
+      }, {
+        "item" : "210.0",
+        "count" : "1"
+      } ],
+      "smallest" : "137.0",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324823,
+    "name" : "Female 0 to 17",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Females 0 to 17",
+    "fieldName" : "female_0_to_17",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191740,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "12163.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1548.0",
+        "count" : "2"
+      }, {
+        "item" : "5587.0",
+        "count" : "1"
+      }, {
+        "item" : "1502.0",
+        "count" : "1"
+      }, {
+        "item" : "2410.0",
+        "count" : "1"
+      }, {
+        "item" : "1223.0",
+        "count" : "1"
+      }, {
+        "item" : "2657.0",
+        "count" : "1"
+      }, {
+        "item" : "4913.0",
+        "count" : "1"
+      }, {
+        "item" : "189.0",
+        "count" : "1"
+      }, {
+        "item" : "2749.0",
+        "count" : "1"
+      }, {
+        "item" : "1647.0",
+        "count" : "1"
+      }, {
+        "item" : "1022.0",
+        "count" : "1"
+      }, {
+        "item" : "5586.0",
+        "count" : "1"
+      }, {
+        "item" : "1232.0",
+        "count" : "1"
+      }, {
+        "item" : "2206.0",
+        "count" : "1"
+      }, {
+        "item" : "2498.0",
+        "count" : "1"
+      }, {
+        "item" : "3553.0",
+        "count" : "1"
+      }, {
+        "item" : "1312.0",
+        "count" : "1"
+      }, {
+        "item" : "4786.0",
+        "count" : "1"
+      }, {
+        "item" : "212.0",
+        "count" : "1"
+      }, {
+        "item" : "2400.0",
+        "count" : "1"
+      } ],
+      "smallest" : "189.0",
+      "count" : "77",
+      "cardinality" : "76"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324824,
+    "name" : "Female 18 to 24",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Females 18 to 24",
+    "fieldName" : "female_18_to_24",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191741,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "6195.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "211.0",
+        "count" : "2"
+      }, {
+        "item" : "450.0",
+        "count" : "2"
+      }, {
+        "item" : "286.0",
+        "count" : "1"
+      }, {
+        "item" : "6195.0",
+        "count" : "1"
+      }, {
+        "item" : "1888.0",
+        "count" : "1"
+      }, {
+        "item" : "1535.0",
+        "count" : "1"
+      }, {
+        "item" : "1231.0",
+        "count" : "1"
+      }, {
+        "item" : "1902.0",
+        "count" : "1"
+      }, {
+        "item" : "331.0",
+        "count" : "1"
+      }, {
+        "item" : "626.0",
+        "count" : "1"
+      }, {
+        "item" : "2738.0",
+        "count" : "1"
+      }, {
+        "item" : "978.0",
+        "count" : "1"
+      }, {
+        "item" : "1801.0",
+        "count" : "1"
+      }, {
+        "item" : "2761.0",
+        "count" : "1"
+      }, {
+        "item" : "730.0",
+        "count" : "1"
+      }, {
+        "item" : "517.0",
+        "count" : "1"
+      }, {
+        "item" : "1665.0",
+        "count" : "1"
+      }, {
+        "item" : "3896.0",
+        "count" : "1"
+      }, {
+        "item" : "933.0",
+        "count" : "1"
+      }, {
+        "item" : "1210.0",
+        "count" : "1"
+      } ],
+      "smallest" : "63.0",
+      "count" : "77",
+      "cardinality" : "75"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324825,
+    "name" : "Female 25 to 34",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Females 25 to 34",
+    "fieldName" : "female_25_to_34",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191742,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "16764.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1141.0",
+        "count" : "2"
+      }, {
+        "item" : "2167.0",
+        "count" : "1"
+      }, {
+        "item" : "4798.0",
+        "count" : "1"
+      }, {
+        "item" : "965.0",
+        "count" : "1"
+      }, {
+        "item" : "1474.0",
+        "count" : "1"
+      }, {
+        "item" : "474.0",
+        "count" : "1"
+      }, {
+        "item" : "978.0",
+        "count" : "1"
+      }, {
+        "item" : "3232.0",
+        "count" : "1"
+      }, {
+        "item" : "2774.0",
+        "count" : "1"
+      }, {
+        "item" : "2431.0",
+        "count" : "1"
+      }, {
+        "item" : "2398.0",
+        "count" : "1"
+      }, {
+        "item" : "791.0",
+        "count" : "1"
+      }, {
+        "item" : "4146.0",
+        "count" : "1"
+      }, {
+        "item" : "771.0",
+        "count" : "1"
+      }, {
+        "item" : "4305.0",
+        "count" : "1"
+      }, {
+        "item" : "4037.0",
+        "count" : "1"
+      }, {
+        "item" : "1804.0",
+        "count" : "1"
+      }, {
+        "item" : "1359.0",
+        "count" : "1"
+      }, {
+        "item" : "6650.0",
+        "count" : "1"
+      }, {
+        "item" : "5128.0",
+        "count" : "1"
+      } ],
+      "smallest" : "110.0",
+      "count" : "77",
+      "cardinality" : "76"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324826,
+    "name" : "Female 35 to 49",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Females 35 to 49",
+    "fieldName" : "female_35_to_49",
+    "position" : 17,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191743,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "10092.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4913.0",
+        "count" : "1"
+      }, {
+        "item" : "1474.0",
+        "count" : "1"
+      }, {
+        "item" : "8311.0",
+        "count" : "1"
+      }, {
+        "item" : "1247.0",
+        "count" : "1"
+      }, {
+        "item" : "10092.0",
+        "count" : "1"
+      }, {
+        "item" : "5721.0",
+        "count" : "1"
+      }, {
+        "item" : "2533.0",
+        "count" : "1"
+      }, {
+        "item" : "3283.0",
+        "count" : "1"
+      }, {
+        "item" : "2157.0",
+        "count" : "1"
+      }, {
+        "item" : "5389.0",
+        "count" : "1"
+      }, {
+        "item" : "7509.0",
+        "count" : "1"
+      }, {
+        "item" : "2882.0",
+        "count" : "1"
+      }, {
+        "item" : "3515.0",
+        "count" : "1"
+      }, {
+        "item" : "1419.0",
+        "count" : "1"
+      }, {
+        "item" : "292.0",
+        "count" : "1"
+      }, {
+        "item" : "1063.0",
+        "count" : "1"
+      }, {
+        "item" : "2930.0",
+        "count" : "1"
+      }, {
+        "item" : "1163.0",
+        "count" : "1"
+      }, {
+        "item" : "5074.0",
+        "count" : "1"
+      }, {
+        "item" : "807.0",
+        "count" : "1"
+      } ],
+      "smallest" : "194.0",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324827,
+    "name" : "Female 50 to 64",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Females 50 to 64",
+    "fieldName" : "female_50_to_64",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191744,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "10040.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4160.0",
+        "count" : "2"
+      }, {
+        "item" : "4312.0",
+        "count" : "1"
+      }, {
+        "item" : "323.0",
+        "count" : "1"
+      }, {
+        "item" : "2627.0",
+        "count" : "1"
+      }, {
+        "item" : "4902.0",
+        "count" : "1"
+      }, {
+        "item" : "965.0",
+        "count" : "1"
+      }, {
+        "item" : "2861.0",
+        "count" : "1"
+      }, {
+        "item" : "1249.0",
+        "count" : "1"
+      }, {
+        "item" : "2489.0",
+        "count" : "1"
+      }, {
+        "item" : "1670.0",
+        "count" : "1"
+      }, {
+        "item" : "4240.0",
+        "count" : "1"
+      }, {
+        "item" : "6704.0",
+        "count" : "1"
+      }, {
+        "item" : "1819.0",
+        "count" : "1"
+      }, {
+        "item" : "269.0",
+        "count" : "1"
+      }, {
+        "item" : "2913.0",
+        "count" : "1"
+      }, {
+        "item" : "2586.0",
+        "count" : "1"
+      }, {
+        "item" : "564.0",
+        "count" : "1"
+      }, {
+        "item" : "3357.0",
+        "count" : "1"
+      }, {
+        "item" : "3042.0",
+        "count" : "1"
+      }, {
+        "item" : "2636.0",
+        "count" : "1"
+      } ],
+      "smallest" : "269.0",
+      "count" : "77",
+      "cardinality" : "76"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324828,
+    "name" : "Female 65 +",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individual Females 65+",
+    "fieldName" : "female_65",
+    "position" : 19,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191745,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "8811.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1363.0",
+        "count" : "2"
+      }, {
+        "item" : "5357.0",
+        "count" : "1"
+      }, {
+        "item" : "2748.0",
+        "count" : "1"
+      }, {
+        "item" : "2576.0",
+        "count" : "1"
+      }, {
+        "item" : "2063.0",
+        "count" : "1"
+      }, {
+        "item" : "1696.0",
+        "count" : "1"
+      }, {
+        "item" : "1347.0",
+        "count" : "1"
+      }, {
+        "item" : "333.0",
+        "count" : "1"
+      }, {
+        "item" : "2125.0",
+        "count" : "1"
+      }, {
+        "item" : "2221.0",
+        "count" : "1"
+      }, {
+        "item" : "1741.0",
+        "count" : "1"
+      }, {
+        "item" : "290.0",
+        "count" : "1"
+      }, {
+        "item" : "2435.0",
+        "count" : "1"
+      }, {
+        "item" : "1473.0",
+        "count" : "1"
+      }, {
+        "item" : "4121.0",
+        "count" : "1"
+      }, {
+        "item" : "2251.0",
+        "count" : "1"
+      }, {
+        "item" : "1312.0",
+        "count" : "1"
+      }, {
+        "item" : "2586.0",
+        "count" : "1"
+      }, {
+        "item" : "564.0",
+        "count" : "1"
+      }, {
+        "item" : "2139.0",
+        "count" : "1"
+      } ],
+      "smallest" : "280.0",
+      "count" : "77",
+      "cardinality" : "76"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324829,
+    "name" : "Total Population",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individuals in Community Area",
+    "fieldName" : "total_population",
+    "position" : 20,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191746,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "100278.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "13149.0",
+        "count" : "1"
+      }, {
+        "item" : "21288.0",
+        "count" : "1"
+      }, {
+        "item" : "52245.0",
+        "count" : "1"
+      }, {
+        "item" : "14368.0",
+        "count" : "1"
+      }, {
+        "item" : "65370.0",
+        "count" : "1"
+      }, {
+        "item" : "42842.0",
+        "count" : "1"
+      }, {
+        "item" : "79220.0",
+        "count" : "1"
+      }, {
+        "item" : "21337.0",
+        "count" : "1"
+      }, {
+        "item" : "6851.0",
+        "count" : "1"
+      }, {
+        "item" : "40843.0",
+        "count" : "1"
+      }, {
+        "item" : "24437.0",
+        "count" : "1"
+      }, {
+        "item" : "24808.0",
+        "count" : "1"
+      }, {
+        "item" : "16281.0",
+        "count" : "1"
+      }, {
+        "item" : "19107.0",
+        "count" : "1"
+      }, {
+        "item" : "2186.0",
+        "count" : "1"
+      }, {
+        "item" : "30355.0",
+        "count" : "1"
+      }, {
+        "item" : "19763.0",
+        "count" : "1"
+      }, {
+        "item" : "2229.0",
+        "count" : "1"
+      }, {
+        "item" : "37660.0",
+        "count" : "1"
+      }, {
+        "item" : "11398.0",
+        "count" : "1"
+      } ],
+      "smallest" : "2186.0",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324830,
+    "name" : "White",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individuals in Community Area: White",
+    "fieldName" : "white",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191747,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "71631.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "7066.0",
+        "count" : "1"
+      }, {
+        "item" : "28731.0",
+        "count" : "1"
+      }, {
+        "item" : "10185.0",
+        "count" : "1"
+      }, {
+        "item" : "11297.0",
+        "count" : "1"
+      }, {
+        "item" : "10892.0",
+        "count" : "1"
+      }, {
+        "item" : "2556.0",
+        "count" : "1"
+      }, {
+        "item" : "14113.0",
+        "count" : "1"
+      }, {
+        "item" : "38249.0",
+        "count" : "1"
+      }, {
+        "item" : "17017.0",
+        "count" : "1"
+      }, {
+        "item" : "10788.0",
+        "count" : "1"
+      }, {
+        "item" : "760.0",
+        "count" : "1"
+      }, {
+        "item" : "1123.0",
+        "count" : "1"
+      }, {
+        "item" : "22010.0",
+        "count" : "1"
+      }, {
+        "item" : "11330.0",
+        "count" : "1"
+      }, {
+        "item" : "22509.0",
+        "count" : "1"
+      }, {
+        "item" : "21496.0",
+        "count" : "1"
+      }, {
+        "item" : "8318.0",
+        "count" : "1"
+      }, {
+        "item" : "148.0",
+        "count" : "1"
+      }, {
+        "item" : "2958.0",
+        "count" : "1"
+      }, {
+        "item" : "27909.0",
+        "count" : "1"
+      } ],
+      "smallest" : "27.0",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324831,
+    "name" : "Black or African American",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individuals in Community Area: Black or African American",
+    "fieldName" : "black_or_african_american",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191748,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "73602.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "24036.0",
+        "count" : "1"
+      }, {
+        "item" : "6588.0",
+        "count" : "1"
+      }, {
+        "item" : "22426.0",
+        "count" : "1"
+      }, {
+        "item" : "128.0",
+        "count" : "1"
+      }, {
+        "item" : "18124.0",
+        "count" : "1"
+      }, {
+        "item" : "486.0",
+        "count" : "1"
+      }, {
+        "item" : "35905.0",
+        "count" : "1"
+      }, {
+        "item" : "1273.0",
+        "count" : "1"
+      }, {
+        "item" : "2007.0",
+        "count" : "1"
+      }, {
+        "item" : "6039.0",
+        "count" : "1"
+      }, {
+        "item" : "937.0",
+        "count" : "1"
+      }, {
+        "item" : "9791.0",
+        "count" : "1"
+      }, {
+        "item" : "29714.0",
+        "count" : "1"
+      }, {
+        "item" : "2283.0",
+        "count" : "1"
+      }, {
+        "item" : "19829.0",
+        "count" : "1"
+      }, {
+        "item" : "3370.0",
+        "count" : "1"
+      }, {
+        "item" : "532.0",
+        "count" : "1"
+      }, {
+        "item" : "16911.0",
+        "count" : "1"
+      }, {
+        "item" : "8924.0",
+        "count" : "1"
+      }, {
+        "item" : "1850.0",
+        "count" : "1"
+      } ],
+      "smallest" : "10.0",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324833,
+    "name" : "American Indian or Alaska Native",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individuals in Community Area: American Indian or Alaska Native",
+    "fieldName" : "american_indian_or_alaska",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191749,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "1044.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.0",
+        "count" : "6"
+      }, {
+        "item" : "87.0",
+        "count" : "2"
+      }, {
+        "item" : "10.0",
+        "count" : "2"
+      }, {
+        "item" : "144.0",
+        "count" : "2"
+      }, {
+        "item" : "17.0",
+        "count" : "2"
+      }, {
+        "item" : "119.0",
+        "count" : "2"
+      }, {
+        "item" : "107.0",
+        "count" : "2"
+      }, {
+        "item" : "25.0",
+        "count" : "1"
+      }, {
+        "item" : "59.0",
+        "count" : "1"
+      }, {
+        "item" : "502.0",
+        "count" : "1"
+      }, {
+        "item" : "820.0",
+        "count" : "1"
+      }, {
+        "item" : "147.0",
+        "count" : "1"
+      }, {
+        "item" : "597.0",
+        "count" : "1"
+      }, {
+        "item" : "47.0",
+        "count" : "1"
+      }, {
+        "item" : "12.0",
+        "count" : "1"
+      }, {
+        "item" : "123.0",
+        "count" : "1"
+      }, {
+        "item" : "1.0",
+        "count" : "1"
+      }, {
+        "item" : "238.0",
+        "count" : "1"
+      }, {
+        "item" : "57.0",
+        "count" : "1"
+      }, {
+        "item" : "146.0",
+        "count" : "1"
+      } ],
+      "smallest" : "0.0",
+      "count" : "77",
+      "cardinality" : "66"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324834,
+    "name" : "Asian",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individuals in Community Area: Asian",
+    "fieldName" : "asian",
+    "position" : 24,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191750,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "16696.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.0",
+        "count" : "4"
+      }, {
+        "item" : "59.0",
+        "count" : "2"
+      }, {
+        "item" : "178.0",
+        "count" : "2"
+      }, {
+        "item" : "1335.0",
+        "count" : "1"
+      }, {
+        "item" : "4345.0",
+        "count" : "1"
+      }, {
+        "item" : "2450.0",
+        "count" : "1"
+      }, {
+        "item" : "2264.0",
+        "count" : "1"
+      }, {
+        "item" : "74.0",
+        "count" : "1"
+      }, {
+        "item" : "17.0",
+        "count" : "1"
+      }, {
+        "item" : "679.0",
+        "count" : "1"
+      }, {
+        "item" : "5083.0",
+        "count" : "1"
+      }, {
+        "item" : "7.0",
+        "count" : "1"
+      }, {
+        "item" : "11600.0",
+        "count" : "1"
+      }, {
+        "item" : "264.0",
+        "count" : "1"
+      }, {
+        "item" : "6386.0",
+        "count" : "1"
+      }, {
+        "item" : "12354.0",
+        "count" : "1"
+      }, {
+        "item" : "83.0",
+        "count" : "1"
+      }, {
+        "item" : "5033.0",
+        "count" : "1"
+      }, {
+        "item" : "4391.0",
+        "count" : "1"
+      }, {
+        "item" : "2750.0",
+        "count" : "1"
+      } ],
+      "smallest" : "0.0",
+      "count" : "77",
+      "cardinality" : "72"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324835,
+    "name" : "Native Hawaiian or Pacific Islander",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individuals in Community Area: Native Hawaiian or Pacific Islander",
+    "fieldName" : "native_hawaiin_or_pacific",
+    "position" : 25,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191751,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "171.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.0",
+        "count" : "42"
+      }, {
+        "item" : "1.0",
+        "count" : "3"
+      }, {
+        "item" : "17.0",
+        "count" : "2"
+      }, {
+        "item" : "4.0",
+        "count" : "2"
+      }, {
+        "item" : "88.0",
+        "count" : "2"
+      }, {
+        "item" : "23.0",
+        "count" : "2"
+      }, {
+        "item" : "21.0",
+        "count" : "2"
+      }, {
+        "item" : "78.0",
+        "count" : "1"
+      }, {
+        "item" : "65.0",
+        "count" : "1"
+      }, {
+        "item" : "90.0",
+        "count" : "1"
+      }, {
+        "item" : "27.0",
+        "count" : "1"
+      }, {
+        "item" : "139.0",
+        "count" : "1"
+      }, {
+        "item" : "20.0",
+        "count" : "1"
+      }, {
+        "item" : "171.0",
+        "count" : "1"
+      }, {
+        "item" : "11.0",
+        "count" : "1"
+      }, {
+        "item" : "44.0",
+        "count" : "1"
+      }, {
+        "item" : "24.0",
+        "count" : "1"
+      }, {
+        "item" : "32.0",
+        "count" : "1"
+      }, {
+        "item" : "22.0",
+        "count" : "1"
+      }, {
+        "item" : "15.0",
+        "count" : "1"
+      } ],
+      "smallest" : "0.0",
+      "count" : "77",
+      "cardinality" : "29"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324836,
+    "name" : "Other Race",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individuals in Community Area: Other Race",
+    "fieldName" : "other_race",
+    "position" : 26,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191752,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "25743.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "276.0",
+        "count" : "2"
+      }, {
+        "item" : "2070.0",
+        "count" : "1"
+      }, {
+        "item" : "2275.0",
+        "count" : "1"
+      }, {
+        "item" : "797.0",
+        "count" : "1"
+      }, {
+        "item" : "356.0",
+        "count" : "1"
+      }, {
+        "item" : "124.0",
+        "count" : "1"
+      }, {
+        "item" : "1016.0",
+        "count" : "1"
+      }, {
+        "item" : "453.0",
+        "count" : "1"
+      }, {
+        "item" : "14.0",
+        "count" : "1"
+      }, {
+        "item" : "12068.0",
+        "count" : "1"
+      }, {
+        "item" : "2662.0",
+        "count" : "1"
+      }, {
+        "item" : "4913.0",
+        "count" : "1"
+      }, {
+        "item" : "1724.0",
+        "count" : "1"
+      }, {
+        "item" : "5056.0",
+        "count" : "1"
+      }, {
+        "item" : "2435.0",
+        "count" : "1"
+      }, {
+        "item" : "335.0",
+        "count" : "1"
+      }, {
+        "item" : "244.0",
+        "count" : "1"
+      }, {
+        "item" : "8182.0",
+        "count" : "1"
+      }, {
+        "item" : "12657.0",
+        "count" : "1"
+      }, {
+        "item" : "790.0",
+        "count" : "1"
+      } ],
+      "smallest" : "0.0",
+      "count" : "77",
+      "cardinality" : "76"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324837,
+    "name" : "Multiracial",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individuals in Community Area: Multiracial",
+    "fieldName" : "multiracial",
+    "position" : 27,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191753,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "14070.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "818.0",
+        "count" : "2"
+      }, {
+        "item" : "3142.0",
+        "count" : "1"
+      }, {
+        "item" : "798.0",
+        "count" : "1"
+      }, {
+        "item" : "2475.0",
+        "count" : "1"
+      }, {
+        "item" : "387.0",
+        "count" : "1"
+      }, {
+        "item" : "183.0",
+        "count" : "1"
+      }, {
+        "item" : "516.0",
+        "count" : "1"
+      }, {
+        "item" : "3927.0",
+        "count" : "1"
+      }, {
+        "item" : "8334.0",
+        "count" : "1"
+      }, {
+        "item" : "284.0",
+        "count" : "1"
+      }, {
+        "item" : "1077.0",
+        "count" : "1"
+      }, {
+        "item" : "6487.0",
+        "count" : "1"
+      }, {
+        "item" : "7743.0",
+        "count" : "1"
+      }, {
+        "item" : "8615.0",
+        "count" : "1"
+      }, {
+        "item" : "738.0",
+        "count" : "1"
+      }, {
+        "item" : "6182.0",
+        "count" : "1"
+      }, {
+        "item" : "1327.0",
+        "count" : "1"
+      }, {
+        "item" : "4539.0",
+        "count" : "1"
+      }, {
+        "item" : "4779.0",
+        "count" : "1"
+      }, {
+        "item" : "3418.0",
+        "count" : "1"
+      } ],
+      "smallest" : "143.0",
+      "count" : "77",
+      "cardinality" : "76"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324838,
+    "name" : "White Not Hispanic or Latino",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individuals in Community Area: White Not Hispanic or Latino",
+    "fieldName" : "white_not_hispanic_or_latino",
+    "position" : 28,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191754,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "67784.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1614.0",
+        "count" : "1"
+      }, {
+        "item" : "11334.0",
+        "count" : "1"
+      }, {
+        "item" : "3236.0",
+        "count" : "1"
+      }, {
+        "item" : "9162.0",
+        "count" : "1"
+      }, {
+        "item" : "20573.0",
+        "count" : "1"
+      }, {
+        "item" : "27437.0",
+        "count" : "1"
+      }, {
+        "item" : "67784.0",
+        "count" : "1"
+      }, {
+        "item" : "24178.0",
+        "count" : "1"
+      }, {
+        "item" : "1130.0",
+        "count" : "1"
+      }, {
+        "item" : "4683.0",
+        "count" : "1"
+      }, {
+        "item" : "14528.0",
+        "count" : "1"
+      }, {
+        "item" : "2651.0",
+        "count" : "1"
+      }, {
+        "item" : "18.0",
+        "count" : "1"
+      }, {
+        "item" : "2226.0",
+        "count" : "1"
+      }, {
+        "item" : "262.0",
+        "count" : "1"
+      }, {
+        "item" : "7311.0",
+        "count" : "1"
+      }, {
+        "item" : "28.0",
+        "count" : "1"
+      }, {
+        "item" : "3741.0",
+        "count" : "1"
+      }, {
+        "item" : "28282.0",
+        "count" : "1"
+      }, {
+        "item" : "23593.0",
+        "count" : "1"
+      } ],
+      "smallest" : "18.0",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324839,
+    "name" : "Hispanic or Latino",
+    "dataTypeName" : "number",
+    "description" : "Total # of Individuals in Community Area: Hispanic or Latino",
+    "fieldName" : "hispanic_or_latino",
+    "position" : 29,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156191755,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "57511.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "783.0",
+        "count" : "2"
+      }, {
+        "item" : "6779.0",
+        "count" : "1"
+      }, {
+        "item" : "18606.0",
+        "count" : "1"
+      }, {
+        "item" : "252.0",
+        "count" : "1"
+      }, {
+        "item" : "1535.0",
+        "count" : "1"
+      }, {
+        "item" : "878.0",
+        "count" : "1"
+      }, {
+        "item" : "18578.0",
+        "count" : "1"
+      }, {
+        "item" : "232.0",
+        "count" : "1"
+      }, {
+        "item" : "383.0",
+        "count" : "1"
+      }, {
+        "item" : "3398.0",
+        "count" : "1"
+      }, {
+        "item" : "4297.0",
+        "count" : "1"
+      }, {
+        "item" : "8311.0",
+        "count" : "1"
+      }, {
+        "item" : "1389.0",
+        "count" : "1"
+      }, {
+        "item" : "27275.0",
+        "count" : "1"
+      }, {
+        "item" : "700.0",
+        "count" : "1"
+      }, {
+        "item" : "56992.0",
+        "count" : "1"
+      }, {
+        "item" : "24808.0",
+        "count" : "1"
+      }, {
+        "item" : "20637.0",
+        "count" : "1"
+      }, {
+        "item" : "19917.0",
+        "count" : "1"
+      }, {
+        "item" : "6664.0",
+        "count" : "1"
+      } ],
+      "smallest" : "48.0",
+      "count" : "77",
+      "cardinality" : "76"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 605324840,
+    "name" : "Record ID",
+    "dataTypeName" : "text",
+    "description" : "A unique identifier for this record.",
+    "fieldName" : "record_id",
+    "position" : 30,
+    "renderTypeName" : "text",
+    "tableColumnId" : 156437171,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "2023_WOODLAWN",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2023_LOOP",
+        "count" : "1"
+      }, {
+        "item" : "2023_EDISON PARK",
+        "count" : "1"
+      }, {
+        "item" : "2023_WEST LAWN",
+        "count" : "1"
+      }, {
+        "item" : "2023_WOODLAWN",
+        "count" : "1"
+      }, {
+        "item" : "2023_AVALON PARK",
+        "count" : "1"
+      }, {
+        "item" : "2023_BEVERLY",
+        "count" : "1"
+      }, {
+        "item" : "2023_KENWOOD",
+        "count" : "1"
+      }, {
+        "item" : "2023_EDGEWATER",
+        "count" : "1"
+      }, {
+        "item" : "2023_SOUTH DEERING",
+        "count" : "1"
+      }, {
+        "item" : "2023_PULLMAN",
+        "count" : "1"
+      }, {
+        "item" : "2023_ARCHER HEIGHTS",
+        "count" : "1"
+      }, {
+        "item" : "2023_SOUTH CHICAGO",
+        "count" : "1"
+      }, {
+        "item" : "2023_NORWOOD PARK",
+        "count" : "1"
+      }, {
+        "item" : "2023_NEAR SOUTH SIDE",
+        "count" : "1"
+      }, {
+        "item" : "2023_ROSELAND",
+        "count" : "1"
+      }, {
+        "item" : "2023_HERMOSA",
+        "count" : "1"
+      }, {
+        "item" : "2023_AVONDALE",
+        "count" : "1"
+      }, {
+        "item" : "2023_RIVERDALE",
+        "count" : "1"
+      }, {
+        "item" : "2023_NORTH LAWNDALE",
+        "count" : "1"
+      }, {
+        "item" : "2023_MOUNT GREENWOOD",
+        "count" : "1"
+      } ],
+      "smallest" : "2023_ALBANY PARK",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "See Terms of Use"
+  },
+  "metadata" : {
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "acs_year",
+        "ascending" : false
+      }, {
+        "columnFieldName" : "community_area",
+        "ascending" : true
+      } ]
+    },
+    "custom_fields" : {
+      "Metadata" : {
+        "Time Period" : "As indicated by Year column",
+        "Data Owner" : "Department of Technology and Innovation"
+      }
+    },
+    "rowIdentifier" : 605324840,
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "qpup-99bh",
+    "displayName" : "Mórrígan Sullivan",
+    "screenName" : "Mórrígan Sullivan",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : false,
+      "expression" : {
+        "columnId" : 605324810,
+        "type" : "column"
+      }
+    }, {
+      "ascending" : true,
+      "expression" : {
+        "columnId" : 605324811,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "qpup-99bh",
+    "displayName" : "Mórrígan Sullivan",
+    "screenName" : "Mórrígan Sullivan",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "tags" : [ "population", "census", "community area", "federal" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

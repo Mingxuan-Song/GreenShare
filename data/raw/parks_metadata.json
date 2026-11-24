@@ -1,0 +1,3026 @@
+{
+  "id" : "ejsh-fztr",
+  "name" : "CPD_Parks",
+  "assetType" : "dataset",
+  "attribution" : "Chicago Park District",
+  "attributionLink" : "https://www.chicagoparkdistrict.com/parks-facilities",
+  "averageRating" : 0,
+  "category" : "Parks & Recreation",
+  "createdAt" : 1478269430,
+  "description" : "Current boundaries of Chicago Park District properties as of November 4, 2016.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 5469,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "PUBLIC_DOMAIN",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 38493192,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1652888395,
+  "publicationGroup" : 13886782,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1652888389,
+  "tableId" : 18700422,
+  "totalTimesRated" : 0,
+  "viewCount" : 5576,
+  "viewLastModified" : 1724877926,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1426791393,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6531501,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1426791393,
+    "targetAudience" : "public",
+    "workflowId" : 2226,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "jccy-er5f",
+      "displayName" : "CPD GIS"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 560600158,
+    "name" : "the_geom",
+    "dataTypeName" : "multipolygon",
+    "fieldName" : "the_geom",
+    "position" : 1,
+    "renderTypeName" : "multipolygon",
+    "tableColumnId" : 87038965,
+    "format" : { }
+  }, {
+    "id" : 560600160,
+    "name" : "OBJECTID_1",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "objectid_1",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038967,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "620",
+      "null" : "0",
+      "top" : [ {
+        "item" : "204",
+        "count" : "1"
+      }, {
+        "item" : "14",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      }, {
+        "item" : "486",
+        "count" : "1"
+      }, {
+        "item" : "348",
+        "count" : "1"
+      }, {
+        "item" : "568",
+        "count" : "1"
+      }, {
+        "item" : "599",
+        "count" : "1"
+      }, {
+        "item" : "576",
+        "count" : "1"
+      }, {
+        "item" : "383",
+        "count" : "1"
+      }, {
+        "item" : "244",
+        "count" : "1"
+      }, {
+        "item" : "77",
+        "count" : "1"
+      }, {
+        "item" : "37",
+        "count" : "1"
+      }, {
+        "item" : "169",
+        "count" : "1"
+      }, {
+        "item" : "92",
+        "count" : "1"
+      }, {
+        "item" : "18",
+        "count" : "1"
+      }, {
+        "item" : "511",
+        "count" : "1"
+      }, {
+        "item" : "305",
+        "count" : "1"
+      }, {
+        "item" : "396",
+        "count" : "1"
+      }, {
+        "item" : "586",
+        "count" : "1"
+      }, {
+        "item" : "134",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "617",
+      "cardinality" : "617"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600159,
+    "name" : "PARK_NO",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "park_no",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038966,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1288.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "204.0",
+        "count" : "1"
+      }, {
+        "item" : "1207.0",
+        "count" : "1"
+      }, {
+        "item" : "14.0",
+        "count" : "1"
+      }, {
+        "item" : "3.0",
+        "count" : "1"
+      }, {
+        "item" : "1070.0",
+        "count" : "1"
+      }, {
+        "item" : "486.0",
+        "count" : "1"
+      }, {
+        "item" : "348.0",
+        "count" : "1"
+      }, {
+        "item" : "568.0",
+        "count" : "1"
+      }, {
+        "item" : "599.0",
+        "count" : "1"
+      }, {
+        "item" : "576.0",
+        "count" : "1"
+      }, {
+        "item" : "1074.0",
+        "count" : "1"
+      }, {
+        "item" : "1165.0",
+        "count" : "1"
+      }, {
+        "item" : "244.0",
+        "count" : "1"
+      }, {
+        "item" : "1150.0",
+        "count" : "1"
+      }, {
+        "item" : "1012.0",
+        "count" : "1"
+      }, {
+        "item" : "18.0",
+        "count" : "1"
+      }, {
+        "item" : "511.0",
+        "count" : "1"
+      }, {
+        "item" : "305.0",
+        "count" : "1"
+      }, {
+        "item" : "396.0",
+        "count" : "1"
+      }, {
+        "item" : "586.0",
+        "count" : "1"
+      } ],
+      "smallest" : "2.0",
+      "count" : "617",
+      "cardinality" : "617"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600161,
+    "name" : "PARK",
+    "dataTypeName" : "text",
+    "fieldName" : "park",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 87038968,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "ZATTERBERG (HELEN)",
+      "null" : "0",
+      "top" : [ {
+        "item" : "RAVENSWOOD MANOR",
+        "count" : "1"
+      }, {
+        "item" : "GOLDBERG (LOUIS)",
+        "count" : "1"
+      }, {
+        "item" : "MANN (JAMES)",
+        "count" : "1"
+      }, {
+        "item" : "SINTIC (GREGORY)",
+        "count" : "1"
+      }, {
+        "item" : "GREEN BRIAR",
+        "count" : "1"
+      }, {
+        "item" : "LIVINGSTON FIELD",
+        "count" : "1"
+      }, {
+        "item" : "PENDLETON (HADIYA)",
+        "count" : "1"
+      }, {
+        "item" : "JUNEWAY BEACH",
+        "count" : "1"
+      }, {
+        "item" : "BLACKWELDER (GERTRUDE)",
+        "count" : "1"
+      }, {
+        "item" : "DAVIS (MARGARET)",
+        "count" : "1"
+      }, {
+        "item" : "LINCOLN (ABRAHAM)",
+        "count" : "1"
+      }, {
+        "item" : "CHASE (SALMON)",
+        "count" : "1"
+      }, {
+        "item" : "PASCHEN (CHRISTIAN)",
+        "count" : "1"
+      }, {
+        "item" : "DEAN (JOHN)",
+        "count" : "1"
+      }, {
+        "item" : "SUPERIOR",
+        "count" : "1"
+      }, {
+        "item" : "PARK NO. 512",
+        "count" : "1"
+      }, {
+        "item" : "NEIGHBORS' GARDEN",
+        "count" : "1"
+      }, {
+        "item" : "SACRAMENTO",
+        "count" : "1"
+      }, {
+        "item" : "HARSH (VIVIAN G.)",
+        "count" : "1"
+      }, {
+        "item" : "BRANDS",
+        "count" : "1"
+      } ],
+      "smallest" : "ABBOTT (ROBERT)",
+      "count" : "617",
+      "cardinality" : "617"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600162,
+    "name" : "LOCATION",
+    "dataTypeName" : "text",
+    "fieldName" : "location",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 87038969,
+    "cachedContents" : {
+      "non_null" : "616",
+      "largest" : "E 87TH ST AT THE LAKE",
+      "null" : "1",
+      "top" : [ {
+        "item" : "5801 N PULASKI RD",
+        "count" : "2"
+      }, {
+        "item" : "9801 S AVENUE G",
+        "count" : "1"
+      }, {
+        "item" : "1126 E 80TH ST",
+        "count" : "1"
+      }, {
+        "item" : "7340 N ROGERS AVE",
+        "count" : "1"
+      }, {
+        "item" : "3517 W ARTHINGTON ST",
+        "count" : "1"
+      }, {
+        "item" : "1801 S CALUMET AVE",
+        "count" : "1"
+      }, {
+        "item" : "1257 W COLUMBIA AVE",
+        "count" : "1"
+      }, {
+        "item" : "4446-58 S. EMERALD AVE",
+        "count" : "1"
+      }, {
+        "item" : "515 S WASHTENAW AVE",
+        "count" : "1"
+      }, {
+        "item" : "3724 W 111TH ST",
+        "count" : "1"
+      }, {
+        "item" : "1313 S THROOP ST",
+        "count" : "1"
+      }, {
+        "item" : "1944 S ST LOUIS AVE",
+        "count" : "1"
+      }, {
+        "item" : "4233 W 65TH ST",
+        "count" : "1"
+      }, {
+        "item" : "4901 S KILBOURN AVE",
+        "count" : "1"
+      }, {
+        "item" : "3939 W 79TH ST",
+        "count" : "1"
+      }, {
+        "item" : "4537 W CARMEN AVE",
+        "count" : "1"
+      }, {
+        "item" : "5200 S HYDE PARK BLVD",
+        "count" : "1"
+      }, {
+        "item" : "4640 N MELVINA AVE",
+        "count" : "1"
+      }, {
+        "item" : "300 W 18TH ST",
+        "count" : "1"
+      }, {
+        "item" : "6855 S OGLESBY AVE",
+        "count" : "1"
+      } ],
+      "smallest" : "1000 W THORNDALE AVE",
+      "count" : "617",
+      "cardinality" : "615"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600163,
+    "name" : "ZIP",
+    "dataTypeName" : "text",
+    "fieldName" : "zip",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 87038970,
+    "cachedContents" : {
+      "non_null" : "612",
+      "largest" : "60661",
+      "null" : "5",
+      "top" : [ {
+        "item" : "60626",
+        "count" : "24"
+      }, {
+        "item" : "60608",
+        "count" : "24"
+      }, {
+        "item" : "60617",
+        "count" : "23"
+      }, {
+        "item" : "60647",
+        "count" : "22"
+      }, {
+        "item" : "60643",
+        "count" : "22"
+      }, {
+        "item" : "60609",
+        "count" : "21"
+      }, {
+        "item" : "60614",
+        "count" : "20"
+      }, {
+        "item" : "60653",
+        "count" : "20"
+      }, {
+        "item" : "60628",
+        "count" : "18"
+      }, {
+        "item" : "60616",
+        "count" : "18"
+      }, {
+        "item" : "60623",
+        "count" : "17"
+      }, {
+        "item" : "60618",
+        "count" : "16"
+      }, {
+        "item" : "60619",
+        "count" : "16"
+      }, {
+        "item" : "60620",
+        "count" : "16"
+      }, {
+        "item" : "60624",
+        "count" : "15"
+      }, {
+        "item" : "60637",
+        "count" : "15"
+      }, {
+        "item" : "60621",
+        "count" : "14"
+      }, {
+        "item" : "60630",
+        "count" : "14"
+      }, {
+        "item" : "60612",
+        "count" : "14"
+      }, {
+        "item" : "60625",
+        "count" : "13"
+      } ],
+      "smallest" : "60602",
+      "count" : "617",
+      "cardinality" : "55"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600164,
+    "name" : "ACRES",
+    "dataTypeName" : "number",
+    "fieldName" : "acres",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038971,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1209.98",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.16",
+        "count" : "14"
+      }, {
+        "item" : "0.24",
+        "count" : "9"
+      }, {
+        "item" : "0.28",
+        "count" : "7"
+      }, {
+        "item" : "0.25",
+        "count" : "7"
+      }, {
+        "item" : "0.33",
+        "count" : "7"
+      }, {
+        "item" : "0.18",
+        "count" : "6"
+      }, {
+        "item" : "0.21",
+        "count" : "6"
+      }, {
+        "item" : "0.22",
+        "count" : "6"
+      }, {
+        "item" : "0.15",
+        "count" : "6"
+      }, {
+        "item" : "0.49",
+        "count" : "5"
+      }, {
+        "item" : "0.2",
+        "count" : "5"
+      }, {
+        "item" : "0.23",
+        "count" : "5"
+      }, {
+        "item" : "0.3",
+        "count" : "4"
+      }, {
+        "item" : "0.48",
+        "count" : "4"
+      }, {
+        "item" : "0.42",
+        "count" : "4"
+      }, {
+        "item" : "0.07",
+        "count" : "4"
+      }, {
+        "item" : "0.38",
+        "count" : "4"
+      }, {
+        "item" : "0.4",
+        "count" : "4"
+      }, {
+        "item" : "0.52",
+        "count" : "4"
+      }, {
+        "item" : "0.27",
+        "count" : "4"
+      } ],
+      "smallest" : "0.0",
+      "count" : "617",
+      "cardinality" : "419"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600165,
+    "name" : "WARD",
+    "dataTypeName" : "number",
+    "fieldName" : "ward",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038972,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "50.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.0",
+        "count" : "28"
+      }, {
+        "item" : "3.0",
+        "count" : "27"
+      }, {
+        "item" : "4.0",
+        "count" : "24"
+      }, {
+        "item" : "49.0",
+        "count" : "22"
+      }, {
+        "item" : "10.0",
+        "count" : "20"
+      }, {
+        "item" : "20.0",
+        "count" : "20"
+      }, {
+        "item" : "28.0",
+        "count" : "19"
+      }, {
+        "item" : "19.0",
+        "count" : "19"
+      }, {
+        "item" : "27.0",
+        "count" : "19"
+      }, {
+        "item" : "24.0",
+        "count" : "18"
+      }, {
+        "item" : "39.0",
+        "count" : "17"
+      }, {
+        "item" : "32.0",
+        "count" : "17"
+      }, {
+        "item" : "11.0",
+        "count" : "17"
+      }, {
+        "item" : "5.0",
+        "count" : "16"
+      }, {
+        "item" : "41.0",
+        "count" : "15"
+      }, {
+        "item" : "8.0",
+        "count" : "14"
+      }, {
+        "item" : "1.0",
+        "count" : "14"
+      }, {
+        "item" : "9.0",
+        "count" : "14"
+      }, {
+        "item" : "43.0",
+        "count" : "13"
+      }, {
+        "item" : "34.0",
+        "count" : "13"
+      } ],
+      "smallest" : "0.0",
+      "count" : "617",
+      "cardinality" : "51"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600166,
+    "name" : "PARK_CLASS",
+    "dataTypeName" : "text",
+    "fieldName" : "park_class",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 87038973,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "UNIMPROVED PARK",
+      "null" : "0",
+      "top" : [ {
+        "item" : "NEIGHBORHOOD PARK",
+        "count" : "163"
+      }, {
+        "item" : "MINI-PARK",
+        "count" : "141"
+      }, {
+        "item" : "COMMUNITY PARK",
+        "count" : "127"
+      }, {
+        "item" : "PASSIVE PARK",
+        "count" : "60"
+      }, {
+        "item" : "REGIONAL PARK",
+        "count" : "46"
+      }, {
+        "item" : "LINEAR PARK",
+        "count" : "22"
+      }, {
+        "item" : "UNIMPROVED PARK",
+        "count" : "21"
+      }, {
+        "item" : "NATURE PRESERVE PARK",
+        "count" : "10"
+      }, {
+        "item" : "CITYWIDE PARK",
+        "count" : "10"
+      }, {
+        "item" : "PARKWAY PARK",
+        "count" : "7"
+      }, {
+        "item" : "MAGNET PARK",
+        "count" : "5"
+      }, {
+        "item" : "PENDING",
+        "count" : "4"
+      }, {
+        "item" : "PARKWAYS PARK",
+        "count" : "1"
+      } ],
+      "smallest" : "CITYWIDE PARK",
+      "count" : "617",
+      "cardinality" : "13"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600167,
+    "name" : "LABEL",
+    "dataTypeName" : "text",
+    "fieldName" : "label",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 87038974,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "Zatterberg",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Miami",
+        "count" : "1"
+      }, {
+        "item" : "Wilson (John)",
+        "count" : "1"
+      }, {
+        "item" : "Bohn",
+        "count" : "1"
+      }, {
+        "item" : "Ohio & Harding",
+        "count" : "1"
+      }, {
+        "item" : "Welles",
+        "count" : "1"
+      }, {
+        "item" : "Park 567",
+        "count" : "1"
+      }, {
+        "item" : "Sumac",
+        "count" : "1"
+      }, {
+        "item" : "Norwood",
+        "count" : "1"
+      }, {
+        "item" : "Big Marsh",
+        "count" : "1"
+      }, {
+        "item" : "Dickinson",
+        "count" : "1"
+      }, {
+        "item" : "Ashe Beach",
+        "count" : "1"
+      }, {
+        "item" : "Athletic Field",
+        "count" : "1"
+      }, {
+        "item" : "Bosley",
+        "count" : "1"
+      }, {
+        "item" : "Armour Sq",
+        "count" : "1"
+      }, {
+        "item" : "Pine",
+        "count" : "1"
+      }, {
+        "item" : "Canalport Riverwalk",
+        "count" : "1"
+      }, {
+        "item" : "Wesolek",
+        "count" : "1"
+      }, {
+        "item" : "Golden Gate",
+        "count" : "1"
+      }, {
+        "item" : "Ravenswood Manor",
+        "count" : "1"
+      }, {
+        "item" : "Superior",
+        "count" : "1"
+      } ],
+      "smallest" : "Abbott",
+      "count" : "617",
+      "cardinality" : "617"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600168,
+    "name" : "GISOBJID",
+    "dataTypeName" : "number",
+    "fieldName" : "gisobjid",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038975,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "6699.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.0",
+        "count" : "4"
+      }, {
+        "item" : "6639.0",
+        "count" : "1"
+      }, {
+        "item" : "6263.0",
+        "count" : "1"
+      }, {
+        "item" : "204.0",
+        "count" : "1"
+      }, {
+        "item" : "3.0",
+        "count" : "1"
+      }, {
+        "item" : "14.0",
+        "count" : "1"
+      }, {
+        "item" : "348.0",
+        "count" : "1"
+      }, {
+        "item" : "486.0",
+        "count" : "1"
+      }, {
+        "item" : "568.0",
+        "count" : "1"
+      }, {
+        "item" : "576.0",
+        "count" : "1"
+      }, {
+        "item" : "383.0",
+        "count" : "1"
+      }, {
+        "item" : "5706.0",
+        "count" : "1"
+      }, {
+        "item" : "244.0",
+        "count" : "1"
+      }, {
+        "item" : "37.0",
+        "count" : "1"
+      }, {
+        "item" : "77.0",
+        "count" : "1"
+      }, {
+        "item" : "169.0",
+        "count" : "1"
+      }, {
+        "item" : "18.0",
+        "count" : "1"
+      }, {
+        "item" : "92.0",
+        "count" : "1"
+      }, {
+        "item" : "5650.0",
+        "count" : "1"
+      }, {
+        "item" : "511.0",
+        "count" : "1"
+      } ],
+      "smallest" : "0.0",
+      "count" : "617",
+      "cardinality" : "614"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600169,
+    "name" : "WHEELCHR_A",
+    "dataTypeName" : "number",
+    "fieldName" : "wheelchr_a",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038976,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "615"
+      }, {
+        "item" : "1",
+        "count" : "2"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600170,
+    "name" : "ARCHERY_RA",
+    "dataTypeName" : "number",
+    "fieldName" : "archery_ra",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038977,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "614"
+      }, {
+        "item" : "1",
+        "count" : "3"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600171,
+    "name" : "ARTIFICIAL",
+    "dataTypeName" : "number",
+    "fieldName" : "artificial",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038978,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "5",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "575"
+      }, {
+        "item" : "1",
+        "count" : "36"
+      }, {
+        "item" : "2",
+        "count" : "4"
+      }, {
+        "item" : "5",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600172,
+    "name" : "BAND_SHELL",
+    "dataTypeName" : "number",
+    "fieldName" : "band_shell",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038979,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "616"
+      }, {
+        "item" : "1",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600173,
+    "name" : "BASEBALL_B",
+    "dataTypeName" : "number",
+    "fieldName" : "baseball_b",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038980,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "615"
+      }, {
+        "item" : "1",
+        "count" : "2"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600174,
+    "name" : "BASKETBALL",
+    "dataTypeName" : "number",
+    "fieldName" : "basketball",
+    "position" : 17,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038981,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "18",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "407"
+      }, {
+        "item" : "2",
+        "count" : "91"
+      }, {
+        "item" : "4",
+        "count" : "76"
+      }, {
+        "item" : "6",
+        "count" : "17"
+      }, {
+        "item" : "8",
+        "count" : "14"
+      }, {
+        "item" : "1",
+        "count" : "3"
+      }, {
+        "item" : "3",
+        "count" : "3"
+      }, {
+        "item" : "10",
+        "count" : "2"
+      }, {
+        "item" : "12",
+        "count" : "2"
+      }, {
+        "item" : "18",
+        "count" : "1"
+      }, {
+        "item" : "14",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "11"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600175,
+    "name" : "BASKETBA_1",
+    "dataTypeName" : "number",
+    "fieldName" : "basketba_1",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038982,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "9",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "404"
+      }, {
+        "item" : "1",
+        "count" : "132"
+      }, {
+        "item" : "2",
+        "count" : "58"
+      }, {
+        "item" : "3",
+        "count" : "15"
+      }, {
+        "item" : "4",
+        "count" : "5"
+      }, {
+        "item" : "5",
+        "count" : "2"
+      }, {
+        "item" : "9",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "7"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600176,
+    "name" : "BEACH",
+    "dataTypeName" : "number",
+    "fieldName" : "beach",
+    "position" : 19,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038983,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "6",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "596"
+      }, {
+        "item" : "1",
+        "count" : "17"
+      }, {
+        "item" : "2",
+        "count" : "3"
+      }, {
+        "item" : "6",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600177,
+    "name" : "BOAT_LAUNC",
+    "dataTypeName" : "number",
+    "fieldName" : "boat_launc",
+    "position" : 20,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038984,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "2",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "612"
+      }, {
+        "item" : "1",
+        "count" : "4"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600178,
+    "name" : "BOAT_LAU_1",
+    "dataTypeName" : "number",
+    "fieldName" : "boat_lau_1",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038985,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "6",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "606"
+      }, {
+        "item" : "1",
+        "count" : "9"
+      }, {
+        "item" : "6",
+        "count" : "1"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600179,
+    "name" : "BOAT_SLIPS",
+    "dataTypeName" : "number",
+    "fieldName" : "boat_slips",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038986,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "2248",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "612"
+      }, {
+        "item" : "1244",
+        "count" : "1"
+      }, {
+        "item" : "2126",
+        "count" : "1"
+      }, {
+        "item" : "78",
+        "count" : "1"
+      }, {
+        "item" : "467",
+        "count" : "1"
+      }, {
+        "item" : "2248",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "6"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600180,
+    "name" : "BOCCE_COUR",
+    "dataTypeName" : "number",
+    "fieldName" : "bocce_cour",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038987,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "3",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "609"
+      }, {
+        "item" : "2",
+        "count" : "4"
+      }, {
+        "item" : "1",
+        "count" : "3"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600181,
+    "name" : "BOWLING_GR",
+    "dataTypeName" : "number",
+    "fieldName" : "bowling_gr",
+    "position" : 24,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038988,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "2",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "615"
+      }, {
+        "item" : "1",
+        "count" : "1"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600182,
+    "name" : "CASTING_PI",
+    "dataTypeName" : "number",
+    "fieldName" : "casting_pi",
+    "position" : 25,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038989,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "599"
+      }, {
+        "item" : "1",
+        "count" : "18"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600183,
+    "name" : "FOOTBALL_S",
+    "dataTypeName" : "number",
+    "fieldName" : "football_s",
+    "position" : 26,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038990,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "13",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "445"
+      }, {
+        "item" : "1",
+        "count" : "135"
+      }, {
+        "item" : "2",
+        "count" : "24"
+      }, {
+        "item" : "4",
+        "count" : "4"
+      }, {
+        "item" : "3",
+        "count" : "4"
+      }, {
+        "item" : "5",
+        "count" : "2"
+      }, {
+        "item" : "8",
+        "count" : "1"
+      }, {
+        "item" : "13",
+        "count" : "1"
+      }, {
+        "item" : "12",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "9"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600239,
+    "name" : "COMMUNITY_",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "community_",
+    "position" : 27,
+    "renderTypeName" : "number",
+    "tableColumnId" : 142192986,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "3",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "537"
+      }, {
+        "item" : "1",
+        "count" : "74"
+      }, {
+        "item" : "2",
+        "count" : "5"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600185,
+    "name" : "CONSERVATO",
+    "dataTypeName" : "number",
+    "fieldName" : "conservato",
+    "position" : 28,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038992,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "615"
+      }, {
+        "item" : "1",
+        "count" : "2"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600186,
+    "name" : "CULTURAL_C",
+    "dataTypeName" : "number",
+    "fieldName" : "cultural_c",
+    "position" : 29,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038993,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "602"
+      }, {
+        "item" : "1",
+        "count" : "15"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600187,
+    "name" : "DOG_FRIEND",
+    "dataTypeName" : "number",
+    "fieldName" : "dog_friend",
+    "position" : 30,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038994,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "5",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "597"
+      }, {
+        "item" : "1",
+        "count" : "19"
+      }, {
+        "item" : "5",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600188,
+    "name" : "FITNESS_CE",
+    "dataTypeName" : "number",
+    "fieldName" : "fitness_ce",
+    "position" : 31,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038995,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "546"
+      }, {
+        "item" : "1",
+        "count" : "71"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600189,
+    "name" : "FITNESS_CO",
+    "dataTypeName" : "number",
+    "fieldName" : "fitness_co",
+    "position" : 32,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038996,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "2",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "602"
+      }, {
+        "item" : "1",
+        "count" : "14"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600190,
+    "name" : "GALLERY",
+    "dataTypeName" : "number",
+    "fieldName" : "gallery",
+    "position" : 33,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038997,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "614"
+      }, {
+        "item" : "1",
+        "count" : "3"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600191,
+    "name" : "GARDEN",
+    "dataTypeName" : "number",
+    "fieldName" : "garden",
+    "position" : 34,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038998,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "5",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "594"
+      }, {
+        "item" : "1",
+        "count" : "17"
+      }, {
+        "item" : "2",
+        "count" : "3"
+      }, {
+        "item" : "3",
+        "count" : "2"
+      }, {
+        "item" : "5",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600192,
+    "name" : "GOLF_COURS",
+    "dataTypeName" : "number",
+    "fieldName" : "golf_cours",
+    "position" : 35,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87038999,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "610"
+      }, {
+        "item" : "1",
+        "count" : "7"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600193,
+    "name" : "GOLF_DRIVI",
+    "dataTypeName" : "number",
+    "fieldName" : "golf_drivi",
+    "position" : 36,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039000,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "614"
+      }, {
+        "item" : "1",
+        "count" : "3"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600194,
+    "name" : "GOLF_PUTTI",
+    "dataTypeName" : "number",
+    "fieldName" : "golf_putti",
+    "position" : 37,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039001,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "614"
+      }, {
+        "item" : "1",
+        "count" : "3"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600195,
+    "name" : "GYMNASIUM",
+    "dataTypeName" : "number",
+    "fieldName" : "gymnasium",
+    "position" : 38,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039002,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "2",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "485"
+      }, {
+        "item" : "1",
+        "count" : "117"
+      }, {
+        "item" : "2",
+        "count" : "15"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600240,
+    "name" : "GYMNASTIC_",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "gymnastic_",
+    "position" : 39,
+    "renderTypeName" : "number",
+    "tableColumnId" : 142192987,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "605"
+      }, {
+        "item" : "1",
+        "count" : "12"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600197,
+    "name" : "HANDBALL_R",
+    "dataTypeName" : "number",
+    "fieldName" : "handball_r",
+    "position" : 40,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039004,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "615"
+      }, {
+        "item" : "1",
+        "count" : "2"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600241,
+    "name" : "HORSESHOE_",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "horseshoe_",
+    "position" : 41,
+    "renderTypeName" : "number",
+    "tableColumnId" : 142192988,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "10",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "589"
+      }, {
+        "item" : "2",
+        "count" : "11"
+      }, {
+        "item" : "1",
+        "count" : "6"
+      }, {
+        "item" : "3",
+        "count" : "5"
+      }, {
+        "item" : "4",
+        "count" : "4"
+      }, {
+        "item" : "10",
+        "count" : "1"
+      }, {
+        "item" : "7",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "7"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600199,
+    "name" : "ICESKATING",
+    "dataTypeName" : "number",
+    "fieldName" : "iceskating",
+    "position" : 42,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039006,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "607"
+      }, {
+        "item" : "1",
+        "count" : "10"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600200,
+    "name" : "POOL_INDOO",
+    "dataTypeName" : "number",
+    "fieldName" : "pool_indoo",
+    "position" : 43,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039007,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "590"
+      }, {
+        "item" : "1",
+        "count" : "27"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600201,
+    "name" : "BASEBALL_J",
+    "dataTypeName" : "number",
+    "fieldName" : "baseball_j",
+    "position" : 44,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039008,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "16",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "404"
+      }, {
+        "item" : "2",
+        "count" : "68"
+      }, {
+        "item" : "1",
+        "count" : "68"
+      }, {
+        "item" : "3",
+        "count" : "39"
+      }, {
+        "item" : "4",
+        "count" : "22"
+      }, {
+        "item" : "5",
+        "count" : "4"
+      }, {
+        "item" : "6",
+        "count" : "3"
+      }, {
+        "item" : "7",
+        "count" : "2"
+      }, {
+        "item" : "8",
+        "count" : "2"
+      }, {
+        "item" : "15",
+        "count" : "2"
+      }, {
+        "item" : "16",
+        "count" : "1"
+      }, {
+        "item" : "13",
+        "count" : "1"
+      }, {
+        "item" : "9",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "13"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600202,
+    "name" : "MOUNTAIN_B",
+    "dataTypeName" : "number",
+    "fieldName" : "mountain_b",
+    "position" : 45,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039009,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "614"
+      }, {
+        "item" : "1",
+        "count" : "3"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600203,
+    "name" : "NATURE_CEN",
+    "dataTypeName" : "number",
+    "fieldName" : "nature_cen",
+    "position" : 46,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039010,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "615"
+      }, {
+        "item" : "1",
+        "count" : "2"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600204,
+    "name" : "POOL_OUTDO",
+    "dataTypeName" : "number",
+    "fieldName" : "pool_outdo",
+    "position" : 47,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039011,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "567"
+      }, {
+        "item" : "1",
+        "count" : "50"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600205,
+    "name" : "ZOO",
+    "dataTypeName" : "number",
+    "fieldName" : "zoo",
+    "position" : 48,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039012,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "616"
+      }, {
+        "item" : "1",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600206,
+    "name" : "PLAYGROUND",
+    "dataTypeName" : "number",
+    "fieldName" : "playground",
+    "position" : 49,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039013,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "10",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "308"
+      }, {
+        "item" : "0",
+        "count" : "283"
+      }, {
+        "item" : "2",
+        "count" : "16"
+      }, {
+        "item" : "5",
+        "count" : "3"
+      }, {
+        "item" : "3",
+        "count" : "3"
+      }, {
+        "item" : "4",
+        "count" : "2"
+      }, {
+        "item" : "7",
+        "count" : "1"
+      }, {
+        "item" : "10",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "8"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600207,
+    "name" : "PLAYGROU_1",
+    "dataTypeName" : "number",
+    "fieldName" : "playgrou_1",
+    "position" : 50,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039014,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "484"
+      }, {
+        "item" : "1",
+        "count" : "133"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600208,
+    "name" : "ROWING_CLU",
+    "dataTypeName" : "number",
+    "fieldName" : "rowing_clu",
+    "position" : 51,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039015,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "615"
+      }, {
+        "item" : "1",
+        "count" : "2"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600209,
+    "name" : "VOLLEYBALL",
+    "dataTypeName" : "number",
+    "fieldName" : "volleyball",
+    "position" : 52,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039016,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "2",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "580"
+      }, {
+        "item" : "1",
+        "count" : "32"
+      }, {
+        "item" : "2",
+        "count" : "5"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600210,
+    "name" : "SENIOR_CEN",
+    "dataTypeName" : "number",
+    "fieldName" : "senior_cen",
+    "position" : 53,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039017,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "614"
+      }, {
+        "item" : "1",
+        "count" : "3"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600211,
+    "name" : "SHUFFLEBOA",
+    "dataTypeName" : "number",
+    "fieldName" : "shuffleboa",
+    "position" : 54,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039018,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "3",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "612"
+      }, {
+        "item" : "1",
+        "count" : "3"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600212,
+    "name" : "SKATE_PARK",
+    "dataTypeName" : "number",
+    "fieldName" : "skate_park",
+    "position" : 55,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039019,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "2",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "611"
+      }, {
+        "item" : "1",
+        "count" : "5"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600213,
+    "name" : "SLED_HILL",
+    "dataTypeName" : "number",
+    "fieldName" : "sled_hill",
+    "position" : 56,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039020,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "611"
+      }, {
+        "item" : "1",
+        "count" : "6"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600214,
+    "name" : "SPORT_ROLL",
+    "dataTypeName" : "number",
+    "fieldName" : "sport_roll",
+    "position" : 57,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039021,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "2",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "594"
+      }, {
+        "item" : "1",
+        "count" : "22"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600215,
+    "name" : "SPRAY_FEAT",
+    "dataTypeName" : "number",
+    "fieldName" : "spray_feat",
+    "position" : 58,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039022,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "4",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "411"
+      }, {
+        "item" : "1",
+        "count" : "200"
+      }, {
+        "item" : "2",
+        "count" : "5"
+      }, {
+        "item" : "4",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600216,
+    "name" : "BASEBALL_S",
+    "dataTypeName" : "number",
+    "fieldName" : "baseball_s",
+    "position" : 59,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039023,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "4",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "506"
+      }, {
+        "item" : "1",
+        "count" : "69"
+      }, {
+        "item" : "2",
+        "count" : "35"
+      }, {
+        "item" : "4",
+        "count" : "4"
+      }, {
+        "item" : "3",
+        "count" : "3"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600217,
+    "name" : "TENNIS_COU",
+    "dataTypeName" : "number",
+    "fieldName" : "tennis_cou",
+    "position" : 60,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039024,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "30",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "485"
+      }, {
+        "item" : "2",
+        "count" : "55"
+      }, {
+        "item" : "4",
+        "count" : "21"
+      }, {
+        "item" : "3",
+        "count" : "15"
+      }, {
+        "item" : "6",
+        "count" : "12"
+      }, {
+        "item" : "5",
+        "count" : "8"
+      }, {
+        "item" : "1",
+        "count" : "8"
+      }, {
+        "item" : "8",
+        "count" : "3"
+      }, {
+        "item" : "10",
+        "count" : "3"
+      }, {
+        "item" : "16",
+        "count" : "1"
+      }, {
+        "item" : "12",
+        "count" : "1"
+      }, {
+        "item" : "24",
+        "count" : "1"
+      }, {
+        "item" : "13",
+        "count" : "1"
+      }, {
+        "item" : "14",
+        "count" : "1"
+      }, {
+        "item" : "9",
+        "count" : "1"
+      }, {
+        "item" : "30",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "16"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600218,
+    "name" : "TRACK",
+    "dataTypeName" : "number",
+    "fieldName" : "track",
+    "position" : 61,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039025,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "587"
+      }, {
+        "item" : "1",
+        "count" : "30"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600219,
+    "name" : "VOLLEYBA_1",
+    "dataTypeName" : "number",
+    "fieldName" : "volleyba_1",
+    "position" : 62,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039026,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "2",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "598"
+      }, {
+        "item" : "1",
+        "count" : "18"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600220,
+    "name" : "WATER_PLAY",
+    "dataTypeName" : "number",
+    "fieldName" : "water_play",
+    "position" : 63,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039027,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "596"
+      }, {
+        "item" : "1",
+        "count" : "21"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600221,
+    "name" : "WATER_SLID",
+    "dataTypeName" : "number",
+    "fieldName" : "water_slid",
+    "position" : 64,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039028,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "612"
+      }, {
+        "item" : "1",
+        "count" : "5"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600222,
+    "name" : "BOXING_CEN",
+    "dataTypeName" : "number",
+    "fieldName" : "boxing_cen",
+    "position" : 65,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039029,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "597"
+      }, {
+        "item" : "1",
+        "count" : "20"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600223,
+    "name" : "WETLAND_AR",
+    "dataTypeName" : "number",
+    "fieldName" : "wetland_ar",
+    "position" : 66,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039030,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "2",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "608"
+      }, {
+        "item" : "1",
+        "count" : "8"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600224,
+    "name" : "LAGOON",
+    "dataTypeName" : "number",
+    "fieldName" : "lagoon",
+    "position" : 67,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039031,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "3",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "600"
+      }, {
+        "item" : "1",
+        "count" : "15"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600225,
+    "name" : "CRICKET_FI",
+    "dataTypeName" : "number",
+    "fieldName" : "cricket_fi",
+    "position" : 68,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039032,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "4",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "615"
+      }, {
+        "item" : "1",
+        "count" : "1"
+      }, {
+        "item" : "4",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600226,
+    "name" : "CLIMBING_W",
+    "dataTypeName" : "number",
+    "fieldName" : "climbing_w",
+    "position" : 69,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039033,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "2",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "611"
+      }, {
+        "item" : "1",
+        "count" : "5"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600227,
+    "name" : "GAME_TABLE",
+    "dataTypeName" : "number",
+    "fieldName" : "game_table",
+    "position" : 70,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039034,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "601"
+      }, {
+        "item" : "1",
+        "count" : "16"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600228,
+    "name" : "CAROUSEL",
+    "dataTypeName" : "number",
+    "fieldName" : "carousel",
+    "position" : 71,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039035,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "617"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "1"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600229,
+    "name" : "CROQUET",
+    "dataTypeName" : "number",
+    "fieldName" : "croquet",
+    "position" : 72,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039036,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "615"
+      }, {
+        "item" : "1",
+        "count" : "2"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600230,
+    "name" : "HANDBALL_I",
+    "dataTypeName" : "number",
+    "fieldName" : "handball_i",
+    "position" : 73,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039037,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "3",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "611"
+      }, {
+        "item" : "2",
+        "count" : "4"
+      }, {
+        "item" : "1",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600231,
+    "name" : "HARBOR",
+    "dataTypeName" : "number",
+    "fieldName" : "harbor",
+    "position" : 74,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039038,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "3",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "612"
+      }, {
+        "item" : "2",
+        "count" : "2"
+      }, {
+        "item" : "3",
+        "count" : "2"
+      }, {
+        "item" : "1",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600232,
+    "name" : "MODELTRAIN",
+    "dataTypeName" : "number",
+    "fieldName" : "modeltrain",
+    "position" : 75,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039039,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "614"
+      }, {
+        "item" : "1",
+        "count" : "3"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600233,
+    "name" : "MODELYACHT",
+    "dataTypeName" : "number",
+    "fieldName" : "modelyacht",
+    "position" : 76,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039040,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "616"
+      }, {
+        "item" : "1",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600234,
+    "name" : "NATURE_BIR",
+    "dataTypeName" : "number",
+    "fieldName" : "nature_bir",
+    "position" : 77,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039041,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "4",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "600"
+      }, {
+        "item" : "1",
+        "count" : "13"
+      }, {
+        "item" : "3",
+        "count" : "2"
+      }, {
+        "item" : "2",
+        "count" : "1"
+      }, {
+        "item" : "4",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600235,
+    "name" : "MINIGOLF",
+    "dataTypeName" : "number",
+    "fieldName" : "minigolf",
+    "position" : 78,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039042,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "1",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "616"
+      }, {
+        "item" : "1",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "617",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600236,
+    "name" : "PERIMETER",
+    "dataTypeName" : "number",
+    "fieldName" : "perimeter",
+    "position" : 79,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039043,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "230322.558202",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.0",
+        "count" : "12"
+      }, {
+        "item" : "4861.02809674",
+        "count" : "1"
+      }, {
+        "item" : "719.772440165",
+        "count" : "1"
+      }, {
+        "item" : "499.029340121",
+        "count" : "1"
+      }, {
+        "item" : "946.255261096",
+        "count" : "1"
+      }, {
+        "item" : "2026.66665314",
+        "count" : "1"
+      }, {
+        "item" : "1514.83170411",
+        "count" : "1"
+      }, {
+        "item" : "382.597896126",
+        "count" : "1"
+      }, {
+        "item" : "12477.9168439",
+        "count" : "1"
+      }, {
+        "item" : "419.398574935",
+        "count" : "1"
+      }, {
+        "item" : "389.238331081",
+        "count" : "1"
+      }, {
+        "item" : "2514.54543948",
+        "count" : "1"
+      }, {
+        "item" : "1924.79640157",
+        "count" : "1"
+      }, {
+        "item" : "434.002991687",
+        "count" : "1"
+      }, {
+        "item" : "1597.74888513",
+        "count" : "1"
+      }, {
+        "item" : "1043.6157856",
+        "count" : "1"
+      }, {
+        "item" : "855.432515646",
+        "count" : "1"
+      }, {
+        "item" : "809.747002974",
+        "count" : "1"
+      }, {
+        "item" : "1608.24294747",
+        "count" : "1"
+      }, {
+        "item" : "1369.97802135",
+        "count" : "1"
+      } ],
+      "smallest" : "0.0",
+      "count" : "617",
+      "cardinality" : "606"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600237,
+    "name" : "Shape_Leng",
+    "dataTypeName" : "number",
+    "fieldName" : "shape_leng",
+    "position" : 80,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039044,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "229497.443475",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1890.33119614",
+        "count" : "1"
+      }, {
+        "item" : "674.475197824",
+        "count" : "1"
+      }, {
+        "item" : "487.696454094",
+        "count" : "1"
+      }, {
+        "item" : "5629.84080009",
+        "count" : "1"
+      }, {
+        "item" : "12477.9168439",
+        "count" : "1"
+      }, {
+        "item" : "389.238331081",
+        "count" : "1"
+      }, {
+        "item" : "2569.19734478",
+        "count" : "1"
+      }, {
+        "item" : "486.773258342",
+        "count" : "1"
+      }, {
+        "item" : "1554.63792771",
+        "count" : "1"
+      }, {
+        "item" : "3159.70742448",
+        "count" : "1"
+      }, {
+        "item" : "4861.02809675",
+        "count" : "1"
+      }, {
+        "item" : "940.135413513",
+        "count" : "1"
+      }, {
+        "item" : "30191.0876097",
+        "count" : "1"
+      }, {
+        "item" : "536.638108215",
+        "count" : "1"
+      }, {
+        "item" : "1395.4853901",
+        "count" : "1"
+      }, {
+        "item" : "2122.77768007",
+        "count" : "1"
+      }, {
+        "item" : "423.767425343",
+        "count" : "1"
+      }, {
+        "item" : "1917.2213957",
+        "count" : "1"
+      }, {
+        "item" : "2030.85901914",
+        "count" : "1"
+      }, {
+        "item" : "1597.74888513",
+        "count" : "1"
+      } ],
+      "smallest" : "29.9394785033",
+      "count" : "617",
+      "cardinality" : "617"
+    },
+    "format" : { }
+  }, {
+    "id" : 560600238,
+    "name" : "Shape_Area",
+    "dataTypeName" : "number",
+    "fieldName" : "shape_area",
+    "position" : 81,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87039045,
+    "cachedContents" : {
+      "non_null" : "617",
+      "largest" : "51850992.977",
+      "null" : "0",
+      "top" : [ {
+        "item" : "190049.499885",
+        "count" : "1"
+      }, {
+        "item" : "848620.921419",
+        "count" : "1"
+      }, {
+        "item" : "7065.53773645",
+        "count" : "1"
+      }, {
+        "item" : "802030.706625",
+        "count" : "1"
+      }, {
+        "item" : "644449.97721",
+        "count" : "1"
+      }, {
+        "item" : "195701.417706",
+        "count" : "1"
+      }, {
+        "item" : "17957.3711981",
+        "count" : "1"
+      }, {
+        "item" : "128237.744303",
+        "count" : "1"
+      }, {
+        "item" : "227154.1048",
+        "count" : "1"
+      }, {
+        "item" : "386513.579487",
+        "count" : "1"
+      }, {
+        "item" : "34147.4655814",
+        "count" : "1"
+      }, {
+        "item" : "304611.917706",
+        "count" : "1"
+      }, {
+        "item" : "79095.4256436",
+        "count" : "1"
+      }, {
+        "item" : "932899.043878",
+        "count" : "1"
+      }, {
+        "item" : "5702.94176034",
+        "count" : "1"
+      }, {
+        "item" : "6899.07550986",
+        "count" : "1"
+      }, {
+        "item" : "6858.57873743",
+        "count" : "1"
+      }, {
+        "item" : "7246.90970022",
+        "count" : "1"
+      }, {
+        "item" : "53739.4714055",
+        "count" : "1"
+      }, {
+        "item" : "16913.9166542",
+        "count" : "1"
+      } ],
+      "smallest" : "54.0192380115",
+      "count" : "617",
+      "cardinality" : "617"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Public Domain"
+  },
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "CPD_Boundaries.zip",
+      "assetId" : "aa4b30ba-7c96-4117-a78e-31a1157318b9",
+      "name" : "CPD_Boundaries.zip"
+    } ],
+    "custom_fields" : {
+      "Metadata" : {
+        "Time Period" : "November 2016",
+        "Data Owner" : "Chicago Park District"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "jccy-er5f",
+    "displayName" : "CPD GIS",
+    "profileImageUrlLarge" : "/api/users/jccy-er5f/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/jccy-er5f/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/jccy-er5f/profile_images/TINY",
+    "screenName" : "CPD GIS",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "jccy-er5f",
+    "displayName" : "CPD GIS",
+    "profileImageUrlLarge" : "/api/users/jccy-er5f/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/jccy-er5f/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/jccy-er5f/profile_images/TINY",
+    "screenName" : "CPD GIS",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "tags" : [ "parks", "recreation", "chicago", "chicago park district", "chicago parks", "2016" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

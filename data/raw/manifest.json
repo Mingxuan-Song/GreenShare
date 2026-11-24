@@ -1,0 +1,142 @@
+{
+  "downloaded_utc": "2026-10-28T04:38:26.385807+00:00",
+  "population_year": 2023,
+  "park_inventory_date": "2016-11-04",
+  "files": [
+    {
+      "url": "https://data.cityofchicago.org/api/views/t68z-cikk.json",
+      "final_url": "https://data.cityofchicago.org/api/views/t68z-cikk.json",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 56474,
+      "sha256": "cf81dbe0636c455b31a4aac2da2e31482a022a55f0297312edf0982559d96f4e",
+      "checked_utc": "2026-10-28T04:38:32.753907+00:00",
+      "filename": "population_metadata.json"
+    },
+    {
+      "url": "https://data.cityofchicago.org/resource/t68z-cikk.json?%24where=acs_year%3D2023&%24select=count%28%2A%29+as+n",
+      "final_url": "https://data.cityofchicago.org/resource/t68z-cikk.json?%24where=acs_year%3D2023&%24select=count%28%2A%29+as+n",
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "bytes": 13,
+      "sha256": "52293d97d79e21d91c2f4e47966264fda4c256fc8d66ab2401f386084f8c3f9f",
+      "checked_utc": "2026-10-28T04:38:40.455003+00:00",
+      "filename": "population_count.json"
+    },
+    {
+      "url": "https://data.cityofchicago.org/resource/t68z-cikk.json?%24where=acs_year%3D2023&%24order=community_area&%24limit=5000",
+      "final_url": "https://data.cityofchicago.org/resource/t68z-cikk.json?%24where=acs_year%3D2023&%24order=community_area&%24limit=5000",
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "bytes": 61060,
+      "sha256": "0f8f8cc3155117984ab27af85adc4c7cc58b583d6a2a9a1d74416a504852671e",
+      "checked_utc": "2026-10-28T04:38:47.969065+00:00",
+      "filename": "population.json"
+    },
+    {
+      "url": "https://data.cityofchicago.org/api/views/igwz-8jzy.json",
+      "final_url": "https://data.cityofchicago.org/api/views/igwz-8jzy.json",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 12831,
+      "sha256": "6bad23c804659a0f33320b78324f222d2133e6bacfe686f742f01be40cba40e6",
+      "checked_utc": "2026-10-28T04:38:54.939027+00:00",
+      "filename": "communities_metadata.json"
+    },
+    {
+      "url": "https://data.cityofchicago.org/resource/igwz-8jzy.json?%24select=count%28%2A%29+as+n",
+      "final_url": "https://data.cityofchicago.org/resource/igwz-8jzy.json?%24select=count%28%2A%29+as+n",
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "bytes": 13,
+      "sha256": "52293d97d79e21d91c2f4e47966264fda4c256fc8d66ab2401f386084f8c3f9f",
+      "checked_utc": "2026-10-28T04:39:02.049948+00:00",
+      "filename": "communities_count.json"
+    },
+    {
+      "url": "https://data.cityofchicago.org/resource/igwz-8jzy.geojson?%24order=area_numbe&%24limit=5000",
+      "final_url": "https://data.cityofchicago.org/resource/igwz-8jzy.geojson?%24order=area_numbe&%24limit=5000",
+      "http_status": 200,
+      "content_type": "application/vnd.geo+json; charset=UTF-8",
+      "bytes": 2072102,
+      "sha256": "3468ac30bd813fa17d755b12a911a43c44f251465604bbe8e1ca1b1b540dca66",
+      "checked_utc": "2026-10-28T04:39:09.739456+00:00",
+      "filename": "communities.geojson"
+    },
+    {
+      "url": "https://data.cityofchicago.org/api/views/ejsh-fztr.json",
+      "final_url": "https://data.cityofchicago.org/api/views/ejsh-fztr.json",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 66089,
+      "sha256": "456226b30d37dd6aea9dfcf50fc3b725246d2657317e086f21373984af7addef",
+      "checked_utc": "2026-10-28T04:39:16.941820+00:00",
+      "filename": "parks_metadata.json"
+    },
+    {
+      "url": "https://data.cityofchicago.org/resource/ejsh-fztr.json?%24select=count%28%2A%29+as+n",
+      "final_url": "https://data.cityofchicago.org/resource/ejsh-fztr.json?%24select=count%28%2A%29+as+n",
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "bytes": 14,
+      "sha256": "745e839cdb3df53daed26af2f98107042961d6605fba91ea06423d02b24e0d58",
+      "checked_utc": "2026-10-28T04:39:24.542955+00:00",
+      "filename": "parks_count.json"
+    },
+    {
+      "url": "https://data.cityofchicago.org/resource/ejsh-fztr.geojson?%24order=objectid_1&%24limit=5000",
+      "final_url": "https://data.cityofchicago.org/resource/ejsh-fztr.geojson?%24order=objectid_1&%24limit=5000",
+      "http_status": 200,
+      "content_type": "application/vnd.geo+json; charset=UTF-8",
+      "bytes": 2716990,
+      "sha256": "293f7717c9925cde8a98614a859601589352c339467e0da757fc3b19b0e9e3c6",
+      "checked_utc": "2026-10-28T04:39:32.127218+00:00",
+      "filename": "parks.geojson"
+    }
+  ],
+  "datasets": {
+    "population": {
+      "source_id": "t68z-cikk",
+      "landing_page": "https://data.cityofchicago.org/d/t68z-cikk",
+      "title": "ACS 5 Year Data by Community Area",
+      "description": "Selected variables from the most recent ACS Community Survey (Released 2023) aggregated by Community Area.  Additional years will be added as they become available.\n\nThe underlying algorithm to create the dataset calculates the % of a census tract that falls within the boundaries of a given community area. Given that census tracts and community area boundaries are not aligned, these figures should be considered an estimate. \n\nTotal population in this dataset: 2,647,621\nTotal Chicago Population Per ACS 2023: 2,664,452\n% Difference: -0.632%\n\nThere are different approaches in common use for displaying Hispanic or Latino population counts. In this dataset, following the approach taken by the Census Bureau, a person who identifies as Hispanic or Latino will also be counted in the race category with which they identify. However, again following the Census Bureau data, there is also a column for White Not Hispanic or Latino.\n\nCode can be found here: https://github.com/Chicago/5-Year-ACS-Survey-Data\n\nCommunity Area Shapefile:\n\nhttps://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6\n\nCensus Area Python Package Documentation:\n\nhttps://census-area.readthedocs.io/en/latest/index.html",
+      "license_id": "SEE_TERMS_OF_USE",
+      "attribution": "City of Chicago",
+      "terms_url": "https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html",
+      "downloaded_rows": 77,
+      "reported_rows": 77,
+      "rows_updated_at": 1737648600
+    },
+    "communities": {
+      "source_id": "igwz-8jzy",
+      "landing_page": "https://data.cityofchicago.org/d/igwz-8jzy",
+      "title": "Boundaries - Community Areas",
+      "description": "Community area boundaries in Chicago.\n\nThis dataset is in a format for spatial datasets that is inherently tabular but allows for a map as a derived view. Please click the indicated link below for such a map. \n\nTo export the data in either tabular or geographic format, please use the Export button on this dataset.",
+      "license_id": "SEE_TERMS_OF_USE",
+      "attribution": "City of Chicago",
+      "terms_url": "https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html",
+      "downloaded_rows": 77,
+      "reported_rows": 77,
+      "rows_updated_at": 1745363197
+    },
+    "parks": {
+      "source_id": "ejsh-fztr",
+      "landing_page": "https://data.cityofchicago.org/d/ejsh-fztr",
+      "title": "CPD_Parks",
+      "description": "Current boundaries of Chicago Park District properties as of November 4, 2016.",
+      "license_id": "PUBLIC_DOMAIN",
+      "attribution": "Chicago Park District",
+      "terms_url": "https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html",
+      "downloaded_rows": 617,
+      "reported_rows": 617,
+      "rows_updated_at": 1652888389
+    }
+  },
+  "validation": {
+    "population_rows": 77,
+    "community_features": 77,
+    "park_features": 617,
+    "joined_communities": 77,
+    "population_total": 2647621.0
+  }
+}
